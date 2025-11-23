@@ -15,7 +15,7 @@ from .search_api import BASE_DIR, NCP_API_KEY
 # Kết nối MongoDB
 MONGO_URI = os.getenv("MONGODB_URI", "mongodb+srv://tatruongvuptit:3rAzJ2rPTw9yXkBN@cluster.znzh1.mongodb.net")
 mongo_client = MongoClient(MONGO_URI)
-db = mongo_client["clova_db"]
+db = mongo_client["career-advisor"]
 users_collection = db["users"]
 
 app = FastAPI()
