@@ -13,7 +13,7 @@ from pymongo import MongoClient
 from .search_api import BASE_DIR, NCP_API_KEY
 
 # Kết nối MongoDB
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://tatruongvuptit:3rAzJ2rPTw9yXkBN@cluster.znzh1.mongodb.net/career-advisor")
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client["clova_db"]
 users_collection = db["users"]
