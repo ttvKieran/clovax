@@ -4,6 +4,7 @@ import json
 import uuid
 import re
 import copy
+from bson import ObjectId
 
 
 import requests
@@ -13,7 +14,7 @@ from pymongo import MongoClient
 from .search_api import BASE_DIR, NCP_API_KEY
 
 # Kết nối MongoDB
-MONGO_URI = os.getenv("MONGODB_URI", "mongodb+srv://tatruongvuptit:3rAzJ2rPTw9yXkBN@cluster.znzh1.mongodb.net")
+MONGO_URI = "mongodb+srv://tatruongvuptit:3rAzJ2rPTw9yXkBN@cluster.znzh1.mongodb.net/"
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client["career-advisor"]
 users_collection = db["users"]
@@ -359,15 +360,16 @@ def apply_personalization_to_canonical_roadmap(
 @app.post("/roadmap/personalized")
 async def get_personalized_roadmap(req: PersonalizeRequest):
     # Lấy user từ MongoDB
-    user = users_collection.find_one({"_id": req.user_id})
+    print(req.user_id)
+    user = users_collection.find_one({"_id": ObjectId(req.user_id)})
     if not user:
         return {"error": "Unknown user_id"}
 
-    # Lấy student từ MongoDB (giả sử user có trường studentID)
+    # Lấy student từ MongoDB 
     student_id = user.get("studentID")
     student = None
     if student_id:
-        student = db["students"].find_one({"_id": student_id})
+        student = db["students"].find_one({"_id": ObjectId(student_id)})
 
     # Gộp thông tin user và student
     profile = dict(user)
