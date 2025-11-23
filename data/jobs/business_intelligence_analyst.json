@@ -1,0 +1,249 @@
+{
+  "career_id": "business_intelligence_analyst",
+  "career_name": "Business Intelligence Analyst",
+  "description": "Lộ trình trở thành Business Intelligence Analyst, tập trung vào phân tích dữ liệu, BI tools và mô hình báo cáo cho doanh nghiệp.",
+  "stages": [
+    {
+      "id": "stage_1_bi_foundation",
+      "name": "Giai đoạn 1 - Nền tảng dữ liệu và kinh doanh",
+      "description": "Thống kê cơ bản, Excel và tư duy kinh doanh.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "bi_statistics_excel",
+          "name": "Thống kê và Excel",
+          "description": "Công cụ cơ bản để phân tích dữ liệu tabular.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bi_descriptive_statistics",
+              "name": "Thống kê mô tả",
+              "item_type": "concept",
+              "description": "Trung bình, trung vị, phương sai, phân phối dữ liệu.",
+              "skill_tags": ["Statistics"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "bi_excel_basics",
+              "name": "Excel cho phân tích",
+              "item_type": "skill",
+              "description": "Formula, bảng pivot, chart cơ bản, filter và sort.",
+              "skill_tags": ["Excel"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "bi_business_context",
+          "name": "Ngữ cảnh kinh doanh",
+          "description": "Hiểu KPI, chỉ số và câu hỏi kinh doanh.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bi_kpi_basics",
+              "name": "KPI và metric cơ bản",
+              "item_type": "concept",
+              "description": "Doanh thu, lợi nhuận, churn, conversion rate ở mức nền tảng.",
+              "skill_tags": ["Business Understanding"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 20,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_bi_core",
+      "name": "Giai đoạn 2 - SQL, mô hình dữ liệu và BI tools",
+      "description": "Trích xuất dữ liệu bằng SQL, hiểu mô hình dữ liệu và sử dụng BI tools.",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "bi_sql_data_modeling",
+          "name": "SQL và thiết kế dữ liệu cho báo cáo",
+          "description": "Viết truy vấn SQL và hiểu mô hình dữ liệu dưới kho dữ liệu.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bi_sql_intermediate",
+              "name": "SQL trung cấp",
+              "item_type": "skill",
+              "description": "JOIN phức tạp, group, window function cơ bản.",
+              "skill_tags": ["SQL"],
+              "prerequisites": ["bi_excel_basics"],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            },
+            {
+              "id": "bi_reporting_modeling",
+              "name": "Mô hình hóa dữ liệu cho báo cáo",
+              "item_type": "concept",
+              "description": "Star schema, fact và dimension, grain của fact.",
+              "skill_tags": ["Data Modeling", "Data Warehousing"],
+              "prerequisites": ["bi_kpi_basics"],
+              "required_skills": [
+                { "tag": "Business Understanding", "min_level": 1 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "bi_tools_core",
+          "name": "Công cụ Business Intelligence",
+          "description": "Power BI, Tableau hoặc công cụ tương đương.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bi_powerbi_tableau_basics",
+              "name": "BI tool cơ bản",
+              "item_type": "skill",
+              "description": "Kết nối nguồn dữ liệu, xây dựng dashboard đơn giản, filter và drill down.",
+              "skill_tags": ["Business Intelligence Tools", "Data Visualization"],
+              "prerequisites": ["bi_sql_intermediate"],
+              "required_skills": [
+                { "tag": "SQL", "min_level": 2 }
+              ],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_bi_advanced",
+      "name": "Giai đoạn 3 - Dashboard nâng cao và storytelling",
+      "description": "Thiết kế dashboard hiệu quả, storytelling với dữ liệu và automation báo cáo.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "bi_dashboard_design",
+          "name": "Thiết kế dashboard",
+          "description": "Nguyên tắc UX cho dashboard và KPI board.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bi_visualization_principles",
+              "name": "Nguyên tắc trực quan hóa",
+              "item_type": "concept",
+              "description": "Chọn loại biểu đồ, màu sắc, layout để tránh đánh lừa người xem.",
+              "skill_tags": ["Data Visualization", "Dashboard Design"],
+              "prerequisites": ["bi_powerbi_tableau_basics"],
+              "required_skills": [
+                { "tag": "Business Intelligence Tools", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bi_storytelling_automation",
+          "name": "Storytelling và automation",
+          "description": "Kể chuyện bằng dữ liệu và tự động hóa pipeline báo cáo.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bi_data_storytelling",
+              "name": "Storytelling với dữ liệu",
+              "item_type": "skill",
+              "description": "Cấu trúc câu chuyện, highlight insight và khuyến nghị hành động.",
+              "skill_tags": ["Data Storytelling"],
+              "prerequisites": ["bi_visualization_principles"],
+              "required_skills": [
+                { "tag": "Data Visualization", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "bi_reporting_automation",
+              "name": "Automation báo cáo",
+              "item_type": "skill",
+              "description": "Lên lịch refresh dữ liệu, subscription report, cảnh báo qua email.",
+              "skill_tags": ["Business Intelligence Tools", "Automation"],
+              "prerequisites": ["bi_powerbi_tableau_basics"],
+              "required_skills": [
+                { "tag": "Business Intelligence Tools", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_bi_career",
+      "name": "Giai đoạn 4 - Domain chuyên sâu và phỏng vấn BI",
+      "description": "Chọn domain kinh doanh, làm dự án dashboard end to end và luyện phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "bi_capstone_area",
+          "name": "Dự án BI capstone",
+          "description": "Xây dựng dashboard phục vụ case kinh doanh cụ thể.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bi_capstone_project",
+              "name": "Capstone project Business Intelligence",
+              "item_type": "project",
+              "description": "Thiết kế mô hình dữ liệu, viết SQL và xây dựng dashboard cho một bài toán kinh doanh (ví dụ: bán lẻ, thương mại điện tử).",
+              "skill_tags": ["Business Intelligence", "Project"],
+              "prerequisites": [
+                "bi_reporting_modeling",
+                "bi_powerbi_tableau_basics"
+              ],
+              "required_skills": [
+                { "tag": "Business Intelligence Tools", "min_level": 3 }
+              ],
+              "estimated_hours": 70,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bi_career_preparation",
+          "name": "Chuẩn bị phỏng vấn BI Analyst",
+          "description": "SQL, case kinh doanh và demo dashboard.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bi_interview_sql_case",
+              "name": "Phỏng vấn SQL và case BI",
+              "item_type": "skill",
+              "description": "Luyện bài SQL thực tế, phân tích yêu cầu business và đề xuất KPI, dashboard.",
+              "skill_tags": ["Business Intelligence Interview"],
+              "prerequisites": [
+                "bi_sql_intermediate",
+                "bi_data_storytelling"
+              ],
+              "required_skills": [
+                { "tag": "SQL", "min_level": 3 },
+                { "tag": "Business Understanding", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

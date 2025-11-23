@@ -1,0 +1,213 @@
+{
+  "career_id": "data_analyst",
+  "career_name": "Data Analyst",
+  "description": "Lộ trình trở thành Data Analyst tập trung vào thống kê, SQL, BI và storytelling.",
+  "stages": [
+    {
+      "id": "stage_1_da_foundation",
+      "name": "Giai đoạn 1 - Nền tảng thống kê và công cụ văn phòng",
+      "description": "Thống kê mô tả, Excel và tư duy phân tích.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "da_stats_excel",
+          "name": "Thống kê mô tả và Excel",
+          "description": "Công cụ cơ bản để phân tích dữ liệu.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "da_descriptive_stats",
+              "name": "Thống kê mô tả cơ bản",
+              "item_type": "concept",
+              "description": "Trung bình, độ lệch chuẩn, phân phối, outlier.",
+              "skill_tags": ["Statistics"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "da_excel_data_cleaning",
+              "name": "Làm sạch dữ liệu với Excel",
+              "item_type": "skill",
+              "description": "Filter, sort, text functions, xử lý thiếu dữ liệu đơn giản.",
+              "skill_tags": ["Excel", "Data Cleaning"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_da_core",
+      "name": "Giai đoạn 2 - SQL, Python và visualization",
+      "description": "Truy vấn dữ liệu, phân tích bằng Python và vẽ biểu đồ.",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "da_sql_python",
+          "name": "SQL và Python cho phân tích",
+          "description": "Hai công cụ chính để làm việc với dữ liệu.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "da_sql_core",
+              "name": "SQL cơ bản đến trung cấp",
+              "item_type": "skill",
+              "description": "SELECT, JOIN, aggregate, group by, subquery.",
+              "skill_tags": ["SQL"],
+              "prerequisites": ["da_excel_data_cleaning"],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            },
+            {
+              "id": "da_python_pandas",
+              "name": "Python và Pandas cho phân tích",
+              "item_type": "skill",
+              "description": "Đọc CSV, xử lý missing, group, pivot, merge.",
+              "skill_tags": ["Python", "Data Manipulation"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "da_visualization_basics",
+          "name": "Trực quan hóa dữ liệu cơ bản",
+          "description": "Dùng Python hoặc BI tool để vẽ biểu đồ.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "da_charts_basics",
+              "name": "Biểu đồ cơ bản",
+              "item_type": "skill",
+              "description": "Line, bar, histogram, boxplot và cách chọn biểu đồ.",
+              "skill_tags": ["Data Visualization"],
+              "prerequisites": ["da_python_pandas"],
+              "required_skills": [
+                { "tag": "Data Manipulation", "min_level": 1 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_da_advanced",
+      "name": "Giai đoạn 3 - Phân tích nâng cao và BI tools",
+      "description": "Phân tích suy luận, A B testing cơ bản và dashboard.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "da_inferential_analysis",
+          "name": "Phân tích suy luận",
+          "description": "Ước lượng, kiểm định giả thuyết, A B testing cơ bản.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "da_inferential_stats",
+              "name": "Thống kê suy luận",
+              "item_type": "concept",
+              "description": "Confidence interval, hypothesis test, p value.",
+              "skill_tags": ["Statistics"],
+              "prerequisites": ["da_descriptive_stats"],
+              "required_skills": [
+                { "tag": "Statistics", "min_level": 1 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "da_bi_tools",
+          "name": "BI tools cho phân tích",
+          "description": "Học một BI tool phổ biến để làm dashboard.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "da_bi_tool_intro",
+              "name": "Nhập môn BI tool",
+              "item_type": "skill",
+              "description": "Kết nối dữ liệu, tạo report đơn giản, filter.",
+              "skill_tags": ["Business Intelligence Tools"],
+              "prerequisites": ["da_sql_core"],
+              "required_skills": [
+                { "tag": "SQL", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_da_career",
+      "name": "Giai đoạn 4 - Portfolio và phỏng vấn Data Analyst",
+      "description": "Dự án phân tích dữ liệu thực tế và luyện phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "da_capstone_area",
+          "name": "Dự án capstone Data Analyst",
+          "description": "Phân tích bộ dữ liệu thực tế và trình bày insight.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "da_capstone_project",
+              "name": "Capstone project Data Analyst",
+              "item_type": "project",
+              "description": "Chọn dataset công khai, làm sạch, phân tích, trực quan hóa và viết báo cáo insight kinh doanh.",
+              "skill_tags": ["Data Analysis", "Project"],
+              "prerequisites": [
+                "da_sql_core",
+                "da_charts_basics",
+                "da_inferential_stats"
+              ],
+              "required_skills": [
+                { "tag": "Statistics", "min_level": 2 },
+                { "tag": "Data Visualization", "min_level": 2 }
+              ],
+              "estimated_hours": 70,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "da_career_preparation",
+          "name": "Chuẩn bị phỏng vấn Data Analyst",
+          "description": "Câu hỏi SQL, case phân tích và trình bày dashboard.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "da_interview_prep",
+              "name": "Phỏng vấn SQL và case",
+              "item_type": "skill",
+              "description": "Luyện câu hỏi SQL, bài toán phân tích sản phẩm, marketing, tài chính.",
+              "skill_tags": ["Data Analyst Interview"],
+              "prerequisites": ["da_capstone_project"],
+              "required_skills": [
+                { "tag": "SQL", "min_level": 3 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

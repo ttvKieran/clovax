@@ -1,0 +1,1283 @@
+[
+  {
+    "user_id": "STU001",
+    "full_name": "Vũ Thu Hiếu",
+    "academic": {
+      "current_semester": 5,
+      "gpa": 3.19,
+      "courses": [
+        {
+          "code": "CS102",
+          "name": "Cấu trúc dữ liệu & giải thuật",
+          "grade": 5.5
+        },
+        {
+          "code": "CS202",
+          "name": "Mạng máy tính",
+          "grade": 5.9
+        },
+        {
+          "code": "MATH102",
+          "name": "Giải tích 2",
+          "grade": 6
+        },
+        {
+          "code": "CS203",
+          "name": "Cơ sở dữ liệu",
+          "grade": 5.4
+        },
+        {
+          "code": "MATH201",
+          "name": "Đại số tuyến tính",
+          "grade": 8.9
+        },
+        {
+          "code": "MATH101",
+          "name": "Giải tích 1",
+          "grade": 5.4
+        }
+      ]
+    },
+    "career": {
+      "target_career_id": "computer_science",
+      "actual_career": "Backend Developer",
+      "target_confidence": null
+    },
+    "availability": {
+      "time_per_week_hours": 8
+    },
+    "skills": {
+      "technical": {
+        "python": 4,
+        "javascript": 4,
+        "linux": 4
+      },
+      "general": {
+        "programming": 3,
+        "problem_solving": 5,
+        "communication": 8,
+        "system_design": 5,
+        "data_analysis": 1
+      }
+    },
+    "interests": [
+      "game_dev",
+      "devops",
+      "data_analysis",
+      "web_dev"
+    ],
+    "projects": [
+      "Làm bài tập lớn thống kê điểm thi bằng Excel và Python."
+    ],
+    "meta": {
+      "source": "synthetic_v1",
+      "created_at": "2025-11-16T07:53:01.705377+00:00",
+      "updated_at": "2025-11-16T07:53:01.705377+00:00"
+    },
+    "it_skill": [
+      "python",
+      "javascript",
+      "linux",
+      "programming",
+      "system design",
+      "data analysis"
+    ],
+    "soft_skill": [
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "user_id": "STU002",
+    "full_name": "Nguyễn Duy Hưng",
+    "academic": {
+      "current_semester": 6,
+      "gpa": 2.59,
+      "courses": [
+        {
+          "code": "CS102",
+          "name": "Cấu trúc dữ liệu & giải thuật",
+          "grade": 6.3
+        },
+        {
+          "code": "CS202",
+          "name": "Mạng máy tính",
+          "grade": 7.2
+        },
+        {
+          "code": "MATH102",
+          "name": "Giải tích 2",
+          "grade": 8.4
+        },
+        {
+          "code": "CS203",
+          "name": "Cơ sở dữ liệu",
+          "grade": 9.4
+        },
+        {
+          "code": "MATH201",
+          "name": "Đại số tuyến tính",
+          "grade": 9.1
+        },
+        {
+          "code": "MATH101",
+          "name": "Giải tích 1",
+          "grade": 7
+        }
+      ]
+    },
+    "career": {
+      "target_career_id": "python_developer",
+      "actual_career": "Backend Developer",
+      "target_confidence": null
+    },
+    "availability": {
+      "time_per_week_hours": 8
+    },
+    "skills": {
+      "technical": {
+        "python": 8,
+        "sql": 5,
+        "java": 4
+      },
+      "general": {
+        "programming": 9,
+        "problem_solving": 8,
+        "communication": 7,
+        "system_design": 10,
+        "data_analysis": 4
+      }
+    },
+    "interests": [
+      "data_analysis"
+    ],
+    "projects": [],
+    "meta": {
+      "source": "synthetic_v1",
+      "created_at": "2025-11-16T07:53:01.705377+00:00",
+      "updated_at": "2025-11-16T07:53:01.705377+00:00"
+    },
+    "it_skill": [
+      "python",
+      "sql",
+      "java",
+      "programming",
+      "system design",
+      "data analysis"
+    ],
+    "soft_skill": [
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "user_id": "STU003",
+    "full_name": "Nguyễn Hoàng Dũng",
+    "academic": {
+      "current_semester": 6,
+      "gpa": 3.61,
+      "courses": [
+        {
+          "code": "CS102",
+          "name": "Cấu trúc dữ liệu & giải thuật",
+          "grade": 9.7
+        },
+        {
+          "code": "CS202",
+          "name": "Mạng máy tính",
+          "grade": 5
+        },
+        {
+          "code": "MATH102",
+          "name": "Giải tích 2",
+          "grade": 9.8
+        },
+        {
+          "code": "CS203",
+          "name": "Cơ sở dữ liệu",
+          "grade": 5.8
+        },
+        {
+          "code": "MATH201",
+          "name": "Đại số tuyến tính",
+          "grade": 7
+        },
+        {
+          "code": "MATH101",
+          "name": "Giải tích 1",
+          "grade": 8.7
+        }
+      ]
+    },
+    "career": {
+      "target_career_id": "ai_data_scientist",
+      "actual_career": "Data Engineer",
+      "target_confidence": null
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    },
+    "skills": {
+      "technical": {
+        "python": 8,
+        "sql": 6,
+        "java": 5
+      },
+      "general": {
+        "programming": 7,
+        "problem_solving": 8,
+        "communication": 3,
+        "system_design": 7,
+        "data_analysis": 4
+      }
+    },
+    "interests": [
+      "data_analysis",
+      "ml_ai",
+      "research"
+    ],
+    "projects": [
+      "Xây dựng mô hình dự đoán điểm thi dựa trên dữ liệu quá khứ bằng Python (sklearn).",
+      "Làm bài tập lớn môn CSDL với MySQL."
+    ],
+    "meta": {
+      "source": "synthetic_v1",
+      "created_at": "2025-11-16T07:53:01.705377+00:00",
+      "updated_at": "2025-11-16T07:53:01.705377+00:00"
+    },
+    "it_skill": [
+      "python",
+      "sql",
+      "java",
+      "programming",
+      "system design",
+      "data analysis"
+    ],
+    "soft_skill": [
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "user_id": "STU004",
+    "full_name": "Lương Hùng",
+    "academic": {
+      "current_semester": 8,
+      "gpa": 2.51,
+      "courses": [
+        {
+          "code": "CS102",
+          "name": "Cấu trúc dữ liệu & giải thuật",
+          "grade": 9.5
+        },
+        {
+          "code": "CS202",
+          "name": "Mạng máy tính",
+          "grade": 7.2
+        },
+        {
+          "code": "MATH102",
+          "name": "Giải tích 2",
+          "grade": 6.5
+        },
+        {
+          "code": "CS203",
+          "name": "Cơ sở dữ liệu",
+          "grade": 5.9
+        },
+        {
+          "code": "MATH201",
+          "name": "Đại số tuyến tính",
+          "grade": 8.8
+        },
+        {
+          "code": "MATH101",
+          "name": "Giải tích 1",
+          "grade": 8.9
+        }
+      ]
+    },
+    "career": {
+      "target_career_id": "python_developer",
+      "actual_career": "Backend Developer",
+      "target_confidence": null
+    },
+    "availability": {
+      "time_per_week_hours": 11
+    },
+    "skills": {
+      "technical": {
+        "python": 4,
+        "sql": 5,
+        "javascript": 7
+      },
+      "general": {
+        "programming": 2,
+        "problem_solving": 6,
+        "communication": 1,
+        "system_design": 3,
+        "data_analysis": 8
+      }
+    },
+    "interests": [
+      "web_dev",
+      "system",
+      "open_source"
+    ],
+    "projects": [
+      "Tham gia phát triển web bán hàng nhỏ bằng Django/Flask.",
+      "Viết tool quản lý file cá nhân bằng Python."
+    ],
+    "meta": {
+      "source": "synthetic_v1",
+      "created_at": "2025-11-16T07:53:01.705377+00:00",
+      "updated_at": "2025-11-16T07:53:01.705377+00:00"
+    },
+    "it_skill": [
+      "python",
+      "sql",
+      "javascript",
+      "programming",
+      "system design",
+      "data analysis"
+    ],
+    "soft_skill": [
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "user_id": "STU005",
+    "full_name": "Đinh Hạnh",
+    "academic": {
+      "current_semester": 5,
+      "gpa": 2.53,
+      "courses": [
+        {
+          "code": "CS102",
+          "name": "Cấu trúc dữ liệu & giải thuật",
+          "grade": 9.2
+        },
+        {
+          "code": "CS202",
+          "name": "Mạng máy tính",
+          "grade": 6.6
+        },
+        {
+          "code": "MATH102",
+          "name": "Giải tích 2",
+          "grade": 7.5
+        },
+        {
+          "code": "CS203",
+          "name": "Cơ sở dữ liệu",
+          "grade": 8.6
+        },
+        {
+          "code": "MATH201",
+          "name": "Đại số tuyến tính",
+          "grade": 9.3
+        },
+        {
+          "code": "MATH101",
+          "name": "Giải tích 1",
+          "grade": 9.6
+        }
+      ]
+    },
+    "career": {
+      "target_career_id": "computer_science",
+      "actual_career": "Computer Science",
+      "target_confidence": null
+    },
+    "availability": {
+      "time_per_week_hours": 7
+    },
+    "skills": {
+      "technical": {
+        "python": 9,
+        "sql": 3,
+        "java": 7
+      },
+      "general": {
+        "programming": 7,
+        "problem_solving": 9,
+        "communication": 3,
+        "system_design": 3,
+        "data_analysis": 7
+      }
+    },
+    "interests": [
+      "web_dev",
+      "system",
+      "research"
+    ],
+    "projects": [
+      "Làm bài tập lớn môn OOP bằng Java.",
+      "Tham gia nghiên cứu nhỏ về tối ưu thuật toán tìm kiếm."
+    ],
+    "meta": {
+      "source": "synthetic_v1",
+      "created_at": "2025-11-16T07:53:01.705377+00:00",
+      "updated_at": "2025-11-16T07:53:01.705377+00:00"
+    },
+    "it_skill": [
+      "python",
+      "sql",
+      "java",
+      "programming",
+      "system design",
+      "data analysis"
+    ],
+    "soft_skill": [
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "user_id": "69220f78f907a50cc7236b73",
+    "full_name": "Trường Vũ 3",
+    "current_semester": 4,
+    "gpa": 2.8,
+    "target_career_id": "cloud_architect",
+    "actual_career": "Cloud Architect",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "docker",
+      "database"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "docker": 5,
+        "database": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 4,
+      "gpa": 2.8,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "cloud_architect",
+      "actual_career": "Cloud Architect",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "6922111cf907a50cc7236b88",
+    "full_name": "admin3",
+    "current_semester": 1,
+    "gpa": 0,
+    "target_career_id": "data_analyst",
+    "actual_career": "Data Analyst",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "database",
+      "oop"
+    ],
+    "soft_skills": [
+      "teamword"
+    ],
+    "skills": {
+      "technical": {
+        "database": 5,
+        "oop": 5
+      },
+      "general": {
+        "teamword": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 0,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "data_analyst",
+      "actual_career": "Data Analyst",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "6922128ff907a50cc7236b99",
+    "full_name": "admin4",
+    "current_semester": 1,
+    "gpa": 0,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html",
+      "css"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5,
+        "css": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 0,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "692217a0f907a50cc7236bab",
+    "full_name": "admin5",
+    "current_semester": 3,
+    "gpa": 3.8,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html",
+      "css"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5,
+        "css": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 3,
+      "gpa": 3.8,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69221879f907a50cc7236bbd",
+    "full_name": "admin6",
+    "current_semester": 3,
+    "gpa": 3.6,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [
+      "team"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {
+        "team": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 3,
+      "gpa": 3.6,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69221879f907a50cc7236bbd",
+    "full_name": "admin6",
+    "current_semester": 1,
+    "gpa": 0,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "java",
+      "spring"
+    ],
+    "soft_skills": [
+      "team"
+    ],
+    "skills": {
+      "technical": {
+        "java": 5,
+        "spring": 5
+      },
+      "general": {
+        "team": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 0,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69221afef907a50cc7236bd2",
+    "full_name": "admin7",
+    "current_semester": 5,
+    "gpa": 2.7,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {}
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 5,
+      "gpa": 2.7,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69221c3179320a014df9e14e",
+    "full_name": "admin9",
+    "current_semester": 1,
+    "gpa": 2,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {}
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 2,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69225a991d1345cfa6ad83fb",
+    "full_name": "admin10",
+    "current_semester": 1,
+    "gpa": 3.2,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Information Technology",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.2,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Information Technology",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69225dd31d1345cfa6ad8413",
+    "full_name": "admin11",
+    "current_semester": 1,
+    "gpa": 3.1,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Information Technology",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {}
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.1,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Information Technology",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69225e6d1d1345cfa6ad8429",
+    "full_name": "Test User 1763860075564",
+    "current_semester": 1,
+    "gpa": 3.5,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "javascript",
+      "python"
+    ],
+    "soft_skills": [
+      "teamwork",
+      "communication"
+    ],
+    "skills": {
+      "technical": {
+        "javascript": 5,
+        "python": 5
+      },
+      "general": {
+        "teamwork": 5,
+        "communication": 5
+      }
+    },
+    "interests": [
+      "web development",
+      "ai"
+    ],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.5,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69225f328fe40319ef81e5fe",
+    "full_name": "admin12",
+    "current_semester": 1,
+    "gpa": 2.8,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "css"
+    ],
+    "soft_skills": [],
+    "skills": {
+      "technical": {
+        "css": 5
+      },
+      "general": {}
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 2.8,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69226a23898799daaa95f2f7",
+    "full_name": "Tạ Trường Vũ",
+    "current_semester": 6,
+    "gpa": 3.6,
+    "target_career_id": "machine_learning",
+    "actual_career": "Machine Learning",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html",
+      "css",
+      "python",
+      "machine learning",
+      "javascript"
+    ],
+    "soft_skills": [
+      "communication",
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5,
+        "css": 5,
+        "python": 5,
+        "machine_learning": 5,
+        "javascript": 5
+      },
+      "general": {
+        "communication": 5,
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 6,
+      "gpa": 3.6,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "machine_learning",
+      "actual_career": "Machine Learning",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69226c82eb350ca8491be259",
+    "full_name": "Nguyễn Văn A",
+    "current_semester": 1,
+    "gpa": 3.4,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.4,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69226debeb350ca8491be282",
+    "full_name": "Tạ Trường Vũ",
+    "current_semester": 1,
+    "gpa": 3.5,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html",
+      "css"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5,
+        "css": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.5,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "692271aaeb350ca8491be2d9",
+    "full_name": "usertest1",
+    "current_semester": 3,
+    "gpa": 3.44,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 3,
+      "gpa": 3.44,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "STU002479",
+    "full_name": "usertest1",
+    "current_semester": 3,
+    "gpa": 3.6,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Full Stack Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html",
+      "css",
+      "js"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 3,
+      "gpa": 3.6,
+      "courses": [
+        {
+          "code": "ptit-scientific-socialism",
+          "name": "Chủ nghĩa xã hội khoa học",
+          "grade": 10
+        },
+        {
+          "code": "ptit-english-2",
+          "name": "Tiếng Anh (Course 2)",
+          "grade": 8
+        },
+        {
+          "code": "ptit-cpp",
+          "name": "Ngôn ngữ lập trình C++",
+          "grade": 0
+        },
+        {
+          "code": "ptit-discrete-math-1",
+          "name": "Toán rời rạc 1",
+          "grade": 0
+        },
+        {
+          "code": "ptit-digital-signal-processing",
+          "name": "Xử lý tín hiệu số",
+          "grade": 0
+        },
+        {
+          "code": "ptit-probability-statistics",
+          "name": "Xác suất thống kê",
+          "grade": 0
+        }
+      ]
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Full Stack Developer",
+      "target_confidence": 0.85
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "STU043267",
+    "full_name": "Tạ Trường Vũ",
+    "current_semester": 1,
+    "gpa": 3.5,
+    "target_career_id": "full_stack_developer",
+    "actual_career": "Backend Developer",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "html",
+      "css"
+    ],
+    "soft_skills": [
+      "teamwork"
+    ],
+    "skills": {
+      "technical": {
+        "html": 5,
+        "css": 5
+      },
+      "general": {
+        "teamwork": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.5,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "full_stack_developer",
+      "actual_career": "Backend Developer",
+      "target_confidence": 0.525
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "69227fc3bf70d56f49821b9c",
+    "full_name": "admin20",
+    "current_semester": 6,
+    "gpa": 3.4,
+    "target_career_id": "information_security_analyst",
+    "actual_career": "Information Security Analyst",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "aashto standards"
+    ],
+    "soft_skills": [
+      "ability to act as a trusted advisor"
+    ],
+    "skills": {
+      "technical": {
+        "aashto_standards": 5
+      },
+      "general": {
+        "ability_to_act_as_a_trusted_advisor": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 6,
+      "gpa": 3.4,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "information_security_analyst",
+      "actual_career": "Information Security Analyst",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "692280c4bf70d56f49821ca4",
+    "full_name": "admin21",
+    "current_semester": 1,
+    "gpa": 3.5,
+    "target_career_id": "information_security_analyst",
+    "actual_career": "Information Security Analyst",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "a certification"
+    ],
+    "soft_skills": [
+      "ability to act as a trusted advisor"
+    ],
+    "skills": {
+      "technical": {
+        "a_certification": 5
+      },
+      "general": {
+        "ability_to_act_as_a_trusted_advisor": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 1,
+      "gpa": 3.5,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "information_security_analyst",
+      "actual_career": "Information Security Analyst",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  },
+  {
+    "user_id": "692281f82350874e40c49e69",
+    "full_name": "admin22",
+    "current_semester": 4,
+    "gpa": 3.1,
+    "target_career_id": "information_security_analyst",
+    "actual_career": "Information Security Analyst",
+    "time_per_week_hours": 10,
+    "it_skills": [
+      "aashto standards"
+    ],
+    "soft_skills": [
+      "ability to act as a trusted advisor"
+    ],
+    "skills": {
+      "technical": {
+        "aashto_standards": 5
+      },
+      "general": {
+        "ability_to_act_as_a_trusted_advisor": 5
+      }
+    },
+    "interests": [],
+    "projects": [],
+    "academic": {
+      "current_semester": 4,
+      "gpa": 3.1,
+      "courses": []
+    },
+    "career": {
+      "target_career_id": "information_security_analyst",
+      "actual_career": "Information Security Analyst",
+      "target_confidence": 0.8
+    },
+    "availability": {
+      "time_per_week_hours": 10
+    }
+  }
+]

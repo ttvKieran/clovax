@@ -1,0 +1,78 @@
+﻿doc_id,career_id,stage_id,area_id,text
+fs_html_css_basics,full_stack_developer,stage_1_fs_foundation,fs_frontend_basics,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 1 - Nền tảng web và lập trình
+Lĩnh vực: Frontend cơ bản
+Mục: 
+Mô tả: Cấu trúc trang, layout cơ bản, responsive đơn giản.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+fs_js_basics,full_stack_developer,stage_1_fs_foundation,fs_frontend_basics,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 1 - Nền tảng web và lập trình
+Lĩnh vực: Frontend cơ bản
+Mục: 
+Mô tả: Biến, hàm, DOM, event, fetch API.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+fs_oop_basics,full_stack_developer,stage_1_fs_foundation,fs_programming_core,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 1 - Nền tảng web và lập trình
+Lĩnh vực: Tư duy lập trình và OOP
+Mục: 
+Mô tả: Class, object, list, map, xử lý collection.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+fs_react_basics,full_stack_developer,stage_2_fs_core,fs_frontend_framework,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 2 - Frontend framework và backend
+Lĩnh vực: Frontend framework
+Mục: 
+Mô tả: Component, props, state, hook cơ bản.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+fs_node_express_basics,full_stack_developer,stage_2_fs_core,fs_backend_framework,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 2 - Frontend framework và backend
+Lĩnh vực: Backend framework
+Mục: 
+Mô tả: REST API, routing, middleware, xử lý JSON.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+fs_database_basic_crud,full_stack_developer,stage_2_fs_core,fs_backend_framework,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 2 - Frontend framework và backend
+Lĩnh vực: Backend framework
+Mục: 
+Mô tả: Dùng SQL hoặc NoSQL để lưu dữ liệu từ API.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+fs_authentication_basics,full_stack_developer,stage_3_fs_advanced,fs_fullstack_patterns,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 3 - Full stack thực tế và devops cơ bản
+Lĩnh vực: Mẫu thiết kế full stack
+Mục: 
+Mô tả: Session, token cơ bản, login logout.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+fs_docker_intro,full_stack_developer,stage_3_fs_advanced,fs_devops_basics,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 3 - Full stack thực tế và devops cơ bản
+Lĩnh vực: Deploy và devops cơ bản
+Mục: 
+Mô tả: Đóng gói ứng dụng backend hoặc full stack vào container.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+fs_deploy_cloud_basic,full_stack_developer,stage_3_fs_advanced,fs_devops_basics,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 3 - Full stack thực tế và devops cơ bản
+Lĩnh vực: Deploy và devops cơ bản
+Mục: 
+Mô tả: Deploy app lên một dịch vụ hosting hoặc cloud đơn giản.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+fs_capstone_project,full_stack_developer,stage_4_fs_career,fs_capstone_area,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 4 - Dự án full stack và phỏng vấn
+Lĩnh vực: Dự án capstone Full Stack
+Mục: 
+Mô tả: Xây dựng một ứng dụng full stack có auth, CRUD, giao diện responsive và deploy lên môi trường thật.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+fs_interview_prep,full_stack_developer,stage_4_fs_career,fs_career_preparation,"Nghề: Full Stack Developer (full_stack_developer)
+Giai đoạn: Giai đoạn 4 - Dự án full stack và phỏng vấn
+Lĩnh vực: Chuẩn bị phỏng vấn Full Stack
+Mục: 
+Mô tả: Ôn lại cấu trúc dữ liệu cơ bản, HTTP, cookie, session, cross origin.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"

@@ -1,0 +1,510 @@
+{
+  "career_id": "ai_data_scientist",
+  "career_name": "AI & Data Scientist",
+  "description": "Lộ trình trở thành AI & Data Scientist cho sinh viên.",
+  "stages": [
+    {
+      "id": "stage_1_foundation",
+      "name": "Giai đoạn 1 - Nền tảng",
+      "description": "Toán, lập trình và tư duy dữ liệu.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "math_basics",
+          "name": "Toán cơ bản",
+          "description": "Giải tích, đại số tuyến tính, xác suất.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "calc_basic",
+              "name": "Giải tích cơ bản",
+              "item_type": "concept",
+              "description": "Giới hạn, đạo hàm, tích phân cơ bản và ứng dụng trong tối ưu hoá hàm một biến.",
+              "skill_tags": ["Calculus"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 1
+            },
+            {
+              "id": "linear_algebra_basic",
+              "name": "Đại số tuyến tính cơ bản",
+              "item_type": "concept",
+              "description": "Vector, ma trận, phép nhân, chuẩn, hệ phương trình tuyến tính, không gian vector.",
+              "skill_tags": ["Linear Algebra"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 2
+            },
+            {
+              "id": "prob_stats_intro",
+              "name": "Xác suất & Thống kê cơ bản",
+              "item_type": "concept",
+              "description": "Biến ngẫu nhiên, phân phối, kỳ vọng, phương sai, luật lớn số, ước lượng trung bình & độ lệch chuẩn.",
+              "skill_tags": ["Probability & Statistics"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 3
+            }
+          ]
+        },
+        {
+          "id": "prog_python",
+          "name": "Lập trình & Python",
+          "description": "Lập trình cơ bản và Python.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "programming_fundamentals",
+              "name": "Tư duy lập trình cơ bản",
+              "item_type": "skill",
+              "description": "Biến, kiểu dữ liệu, toán tử, cấu trúc rẽ nhánh, vòng lặp, hàm, debug cơ bản.",
+              "skill_tags": ["Programming Fundamentals"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "python_basics",
+              "name": "Python cơ bản",
+              "item_type": "skill",
+              "description": "Syntax cơ bản, list, tuple, dict, set, function, module, virtualenv.",
+              "skill_tags": ["Python"],
+              "prerequisites": ["programming_fundamentals"],
+              "required_skills": [
+                { "tag": "Programming Fundamentals", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 2
+            },
+            {
+              "id": "python_advanced",
+              "name": "Python nâng cao cho dữ liệu",
+              "item_type": "skill",
+              "description": "List comprehension, generator, OOP cơ bản, xử lý file, logging, môi trường dự án.",
+              "skill_tags": ["Python Advanced"],
+              "prerequisites": ["python_basics"],
+              "required_skills": [
+                { "tag": "Python", "min_level": 3 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 3
+            }
+          ]
+        },
+        {
+          "id": "data_thinking",
+          "name": "Tư duy dữ liệu & Công cụ cơ bản",
+          "description": "Làm quen với dữ liệu thực tế và thao tác dữ liệu.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "excel_data_intro",
+              "name": "Làm quen dữ liệu với Excel/Sheets",
+              "item_type": "skill",
+              "description": "Lọc, sort, pivot table, vẽ biểu đồ đơn giản để hiểu phân bố dữ liệu.",
+              "skill_tags": ["Data Exploration Basic"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 15,
+              "order_index": 1
+            },
+            {
+              "id": "python_numpy_pandas",
+              "name": "Xử lý dữ liệu với NumPy & Pandas",
+              "item_type": "skill",
+              "description": "Array, Series, DataFrame, join/merge, groupby, xử lý missing value.",
+              "skill_tags": ["NumPy", "Pandas"],
+              "prerequisites": ["python_basics"],
+              "required_skills": [
+                { "tag": "Python", "min_level": 2 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 2
+            },
+            {
+              "id": "basic_data_viz",
+              "name": "Trực quan hoá dữ liệu cơ bản",
+              "item_type": "skill",
+              "description": "Histogram, boxplot, scatter plot; đọc hiểu biểu đồ để rút insight đơn giản.",
+              "skill_tags": ["Data Visualization"],
+              "prerequisites": ["python_numpy_pandas"],
+              "required_skills": [
+                { "tag": "Pandas", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_core_ml",
+      "name": "Giai đoạn 2 - Core Machine Learning",
+      "description": "Kiến thức ML cơ bản và thực hành trên bài toán nhỏ.",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "ml_fundamentals",
+          "name": "ML cơ bản",
+          "description": "Khái niệm, supervised/unsupervised, metrics.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "ml_concepts",
+              "name": "Khái niệm ML",
+              "item_type": "concept",
+              "description": "Supervised vs unsupervised, overfitting, bias-variance, train/val/test, pipeline cơ bản.",
+              "skill_tags": ["ML Basics"],
+              "prerequisites": ["python_numpy_pandas", "linear_algebra_basic"],
+              "required_skills": [
+                { "tag": "Python", "min_level": 2 },
+                { "tag": "Linear Algebra", "min_level": 2 }
+              ],
+              "estimated_hours": 20,
+              "order_index": 1
+            },
+            {
+              "id": "ml_metrics",
+              "name": "Metrics đánh giá mô hình",
+              "item_type": "concept",
+              "description": "Accuracy, precision, recall, F1, ROC-AUC, MSE, MAE; chọn metric phù hợp bài toán.",
+              "skill_tags": ["ML Evaluation"],
+              "prerequisites": ["ml_concepts", "prob_stats_intro"],
+              "required_skills": [
+                { "tag": "ML Basics", "min_level": 1 },
+                { "tag": "Probability & Statistics", "min_level": 1 }
+              ],
+              "estimated_hours": 15,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "ml_algorithms_core",
+          "name": "Thuật toán ML cốt lõi",
+          "description": "Hồi quy, phân lớp, phân cụm cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "linear_regression",
+              "name": "Hồi quy tuyến tính",
+              "item_type": "skill",
+              "description": "Loss function, gradient descent cơ bản, implement bằng NumPy / scikit-learn.",
+              "skill_tags": ["ML Basics", "Linear Regression"],
+              "prerequisites": ["ml_concepts", "calc_basic"],
+              "required_skills": [
+                { "tag": "ML Basics", "min_level": 1 },
+                { "tag": "Calculus", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "logistic_regression",
+              "name": "Hồi quy logistic & phân lớp nhị phân",
+              "item_type": "skill",
+              "description": "Hàm sigmoid, cross-entropy loss, phân lớp nhị phân với scikit-learn.",
+              "skill_tags": ["Classification", "Logistic Regression"],
+              "prerequisites": ["linear_regression"],
+              "required_skills": [
+                { "tag": "Linear Regression", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 2
+            },
+            {
+              "id": "tree_based_models",
+              "name": "Decision Tree & Random Forest",
+              "item_type": "skill",
+              "description": "Cây quyết định, entropy/Gini, bagging, random forest; ưu/nhược điểm.",
+              "skill_tags": ["Tree Models"],
+              "prerequisites": ["ml_concepts"],
+              "required_skills": [
+                { "tag": "ML Basics", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 3
+            },
+            {
+              "id": "unsupervised_learning",
+              "name": "Unsupervised learning cơ bản",
+              "item_type": "skill",
+              "description": "Clustering (k-means), dimensionality reduction (PCA), use-case thực tế.",
+              "skill_tags": ["Unsupervised Learning"],
+              "prerequisites": ["ml_concepts", "linear_algebra_basic"],
+              "required_skills": [
+                { "tag": "Linear Algebra", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 4
+            }
+          ]
+        },
+        {
+          "id": "ml_practice_projects",
+          "name": "Thực hành ML với project nhỏ",
+          "description": "Áp dụng pipeline đầy đủ trên dataset thực.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "ml_project_tabular",
+              "name": "Mini project: Dự đoán trên dữ liệu dạng bảng",
+              "item_type": "project",
+              "description": "Chọn 1 dataset (Kaggle/UCI), làm đầy đủ: EDA, feature engineering, chọn model, tuning cơ bản, đánh giá & báo cáo.",
+              "skill_tags": ["ML Pipeline", "Project"],
+              "prerequisites": ["linear_regression", "ml_metrics"],
+              "required_skills": [
+                { "tag": "ML Basics", "min_level": 2 },
+                { "tag": "Data Exploration Basic", "min_level": 2 }
+              ],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_deep_learning",
+      "name": "Giai đoạn 3 - Deep Learning & Ứng dụng",
+      "description": "Mạng neural, computer vision, NLP cơ bản.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "dl_core",
+          "name": "Deep Learning cơ bản",
+          "description": "Mạng neural, backprop, training.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "nn_fundamentals",
+              "name": "Neural Network cơ bản",
+              "item_type": "concept",
+              "description": "Perceptron, fully connected network, hàm kích hoạt, loss, gradient descent, backpropagation (ý tưởng).",
+              "skill_tags": ["Deep Learning Basics"],
+              "prerequisites": ["linear_regression", "ml_concepts"],
+              "required_skills": [
+                { "tag": "ML Basics", "min_level": 2 },
+                { "tag": "Calculus", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "framework_pytorch_or_tf",
+              "name": "Framework DL (PyTorch hoặc TensorFlow)",
+              "item_type": "skill",
+              "description": "Tensor, auto-grad, xây dựng model đơn giản, training loop, lưu & load model.",
+              "skill_tags": ["PyTorch or TensorFlow"],
+              "prerequisites": ["nn_fundamentals", "python_advanced"],
+              "required_skills": [
+                { "tag": "Python", "min_level": 3 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "dl_vision_nlp",
+          "name": "Ứng dụng: Computer Vision & NLP cơ bản",
+          "description": "Nhận dạng ảnh & xử lý văn bản cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "cnn_basics",
+              "name": "Convolutional Neural Network (CNN) cơ bản",
+              "item_type": "concept",
+              "description": "Convolution, pooling, kiến trúc CNN đơn giản, ứng dụng phân loại ảnh.",
+              "skill_tags": ["Computer Vision"],
+              "prerequisites": ["framework_pytorch_or_tf"],
+              "required_skills": [
+                { "tag": "Deep Learning Basics", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "nlp_basics",
+              "name": "NLP cơ bản",
+              "item_type": "concept",
+              "description": "Tokenization, word embedding (Word2Vec, GloVe), sequence model cơ bản.",
+              "skill_tags": ["NLP Basics"],
+              "prerequisites": ["framework_pytorch_or_tf"],
+              "required_skills": [
+                { "tag": "Python", "min_level": 3 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "dl_projects",
+          "name": "Project Deep Learning",
+          "description": "Xây 1–2 project DL hoàn chỉnh.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "vision_project",
+              "name": "Project: Phân loại / nhận dạng ảnh đơn giản",
+              "item_type": "project",
+              "description": "Dataset hình ảnh nhỏ (CIFAR-10, Dogs vs Cats,...), train CNN, đánh giá, viết báo cáo.",
+              "skill_tags": ["Computer Vision", "Project"],
+              "prerequisites": ["cnn_basics"],
+              "required_skills": [
+                { "tag": "Computer Vision", "min_level": 1 }
+              ],
+              "estimated_hours": 45,
+              "order_index": 1
+            },
+            {
+              "id": "nlp_project",
+              "name": "Project: Phân loại văn bản / sentiment analysis",
+              "item_type": "project",
+              "description": "Thu thập dữ liệu text (ví dụ: review sản phẩm), tiền xử lý, xây model (RNN/CNN/BERT cơ bản), đánh giá.",
+              "skill_tags": ["NLP Basics", "Project"],
+              "prerequisites": ["nlp_basics"],
+              "required_skills": [
+                { "tag": "NLP Basics", "min_level": 1 }
+              ],
+              "estimated_hours": 45,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_specialization_career",
+      "name": "Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm",
+      "description": "Chọn nhánh chuyên sâu, MLOps cơ bản, portfolio & phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "mlops_deployment",
+          "name": "Triển khai mô hình & MLOps cơ bản",
+          "description": "Đưa mô hình vào môi trường production đơn giản.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "model_serving_api",
+              "name": "Đóng gói & deploy model qua API",
+              "item_type": "skill",
+              "description": "Dùng Flask/FastAPI, load model đã train, expose REST API, test với client.",
+              "skill_tags": ["Model Serving"],
+              "prerequisites": ["ml_project_tabular", "vision_project"],
+              "required_skills": [
+                { "tag": "Python", "min_level": 3 },
+                { "tag": "ML Pipeline", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "docker_basics_ml",
+              "name": "Docker cơ bản cho AI",
+              "item_type": "skill",
+              "description": "Tạo Dockerfile, build image, chạy container chứa API model.",
+              "skill_tags": ["Docker"],
+              "prerequisites": ["model_serving_api"],
+              "required_skills": [
+                { "tag": "Model Serving", "min_level": 1 }
+              ],
+              "estimated_hours": 20,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "specialization_paths",
+          "name": "Nhánh chuyên sâu",
+          "description": "Chọn một nhánh: NLP, CV, hoặc Data Science cổ điển.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "specialize_nlp",
+              "name": "Chuyên sâu NLP (tuỳ chọn)",
+              "item_type": "concept",
+              "description": "Transformer, attention, BERT, fine-tuning mô hình ngôn ngữ cho tiếng Việt / tiếng Anh.",
+              "skill_tags": ["NLP Advanced"],
+              "prerequisites": ["nlp_basics"],
+              "required_skills": [
+                { "tag": "NLP Basics", "min_level": 2 }
+              ],
+              "estimated_hours": 50,
+              "order_index": 1
+            },
+            {
+              "id": "specialize_cv",
+              "name": "Chuyên sâu Computer Vision (tuỳ chọn)",
+              "item_type": "concept",
+              "description": "ResNet, object detection (YOLO, Faster R-CNN), transfer learning.",
+              "skill_tags": ["Computer Vision Advanced"],
+              "prerequisites": ["cnn_basics"],
+              "required_skills": [
+                { "tag": "Computer Vision", "min_level": 2 }
+              ],
+              "estimated_hours": 50,
+              "order_index": 2
+            },
+            {
+              "id": "specialize_ds_classic",
+              "name": "Chuyên sâu Data Science cổ điển (tuỳ chọn)",
+              "item_type": "concept",
+              "description": "Feature engineering nâng cao, time-series, interpretability (SHAP, LIME).",
+              "skill_tags": ["Data Science Advanced"],
+              "prerequisites": ["ml_project_tabular"],
+              "required_skills": [
+                { "tag": "ML Pipeline", "min_level": 2 }
+              ],
+              "estimated_hours": 50,
+              "order_index": 3
+            }
+          ]
+        },
+        {
+          "id": "career_preparation",
+          "name": "Chuẩn bị đi làm & Portfolio",
+          "description": "Hoàn thiện CV, GitHub, luyện phỏng vấn.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "portfolio_building",
+              "name": "Xây dựng portfolio AI",
+              "item_type": "project",
+              "description": "Tổng hợp 3–5 project tốt nhất (tabular, CV, NLP), viết README chi tiết, deploy demo (nếu có).",
+              "skill_tags": ["Career Portfolio"],
+              "prerequisites": ["vision_project"],
+              "required_skills": [
+                { "tag": "Project", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "interview_prep_ai",
+              "name": "Luyện phỏng vấn AI/Data",
+              "item_type": "skill",
+              "description": "Ôn lại xác suất, thống kê, ML cơ bản; luyện giải thích mô hình và project; mock interview.",
+              "skill_tags": ["AI Interview"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 20,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

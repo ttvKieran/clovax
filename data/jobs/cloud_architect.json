@@ -1,0 +1,277 @@
+{
+  "career_id": "cloud_architect",
+  "career_name": "Cloud Architect",
+  "description": "Lộ trình trở thành Cloud Architect, tập trung vào thiết kế hệ thống trên cloud, bảo mật và tối ưu chi phí.",
+  "stages": [
+    {
+      "id": "stage_1_cloud_foundation",
+      "name": "Giai đoạn 1 - Nền tảng lập trình và hệ thống",
+      "description": "Lập trình, hệ điều hành, mạng và web cơ bản.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "cloud_programming_basics",
+          "name": "Lập trình cho backend",
+          "description": "Một ngôn ngữ backend chính như Java, Python hoặc JavaScript.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "cloud_backend_lang_basics",
+              "name": "Lập trình backend cơ bản",
+              "item_type": "skill",
+              "description": "REST API đơn giản, JSON, xử lý request response.",
+              "skill_tags": ["Backend Development", "Programming Fundamentals"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "cloud_systems_network_basics",
+          "name": "Hệ điều hành và mạng",
+          "description": "Linux và networking cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "cloud_linux_basics",
+              "name": "Linux và shell",
+              "item_type": "skill",
+              "description": "Command line, process, user, permission cơ bản.",
+              "skill_tags": ["Linux", "Operating Systems"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "cloud_networking_basics",
+              "name": "Mạng máy tính cho cloud",
+              "item_type": "concept",
+              "description": "TCP IP, DNS, load balancer, firewall ở mức khái niệm.",
+              "skill_tags": ["Computer Networks"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_cloud_core",
+      "name": "Giai đoạn 2 - Core Cloud Services",
+      "description": "Học core services của một nhà cung cấp cloud (AWS, Azure hoặc GCP).",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "cloud_core_services",
+          "name": "Dịch vụ compute, storage và network",
+          "description": "Các dịch vụ nền tảng cho mọi kiến trúc cloud.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "cloud_compute_basics",
+              "name": "Compute trên cloud",
+              "item_type": "concept",
+              "description": "Máy ảo, container, autoscaling ở mức khái niệm.",
+              "skill_tags": ["Cloud Computing"],
+              "prerequisites": [
+                "cloud_linux_basics",
+                "cloud_backend_lang_basics"
+              ],
+              "required_skills": [
+                { "tag": "Linux", "min_level": 1 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "cloud_storage_basics",
+              "name": "Storage và database managed",
+              "item_type": "concept",
+              "description": "Object storage, block storage, managed relational database.",
+              "skill_tags": ["Cloud Computing", "Databases"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            },
+            {
+              "id": "cloud_networking_services",
+              "name": "VPC, subnet và security group",
+              "item_type": "concept",
+              "description": "Thiết kế mạng ảo, route table, security group ở mức cơ bản.",
+              "skill_tags": ["Cloud Networking"],
+              "prerequisites": ["cloud_networking_basics"],
+              "required_skills": [
+                { "tag": "Computer Networks", "min_level": 2 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 3
+            }
+          ]
+        },
+        {
+          "id": "cloud_infra_as_code",
+          "name": "Hạ tầng như mã",
+          "description": "Sử dụng công cụ để mô tả và quản lý hạ tầng.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "cloud_iac_basics",
+              "name": "Infrastructure as Code cơ bản",
+              "item_type": "skill",
+              "description": "Mô tả hạ tầng bằng Terraform hoặc cloud native template mức cơ bản.",
+              "skill_tags": ["Infrastructure as Code"],
+              "prerequisites": [
+                "cloud_compute_basics",
+                "cloud_networking_services"
+              ],
+              "required_skills": [
+                { "tag": "Cloud Computing", "min_level": 1 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_cloud_advanced",
+      "name": "Giai đoạn 3 - Kiến trúc, bảo mật và reliability",
+      "description": "Thiết kế kiến trúc cloud, bảo mật và high availability.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "cloud_architecture_patterns",
+          "name": "Mẫu kiến trúc cloud",
+          "description": "Microservices, event driven, serverless.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "cloud_microservices_intro",
+              "name": "Microservices và API gateway",
+              "item_type": "concept",
+              "description": "Tách dịch vụ, giao tiếp qua API và gateway.",
+              "skill_tags": ["Microservices", "System Design"],
+              "prerequisites": [
+                "cloud_backend_lang_basics",
+                "cloud_networking_services"
+              ],
+              "required_skills": [
+                { "tag": "Backend Development", "min_level": 2 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 1
+            },
+            {
+              "id": "cloud_event_driven_patterns",
+              "name": "Event driven architecture",
+              "item_type": "concept",
+              "description": "Message queue, pub sub, eventual consistency.",
+              "skill_tags": ["System Design"],
+              "prerequisites": ["cloud_microservices_intro"],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "cloud_security_reliability",
+          "name": "Bảo mật và reliability",
+          "description": "Identity, access, logging, backup và disaster recovery.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "cloud_security_basics",
+              "name": "Bảo mật trên cloud",
+              "item_type": "concept",
+              "description": "Identity and access management, principle of least privilege.",
+              "skill_tags": ["Cloud Security"],
+              "prerequisites": ["cloud_networking_services"],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "cloud_reliability_basics",
+              "name": "High availability và backup",
+              "item_type": "concept",
+              "description": "Multi zone, backup strategy, monitoring ở mức khái niệm.",
+              "skill_tags": ["Reliability Engineering"],
+              "prerequisites": ["cloud_compute_basics"],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_cloud_career",
+      "name": "Giai đoạn 4 - Thiết kế kiến trúc end to end và phỏng vấn",
+      "description": "Làm dự án kiến trúc tổng thể và luyện phỏng vấn Cloud Architect.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "cloud_capstone_area",
+          "name": "Dự án kiến trúc cloud capstone",
+          "description": "Thiết kế hệ thống trên cloud cho case thực tế.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "cloud_capstone_project",
+              "name": "Capstone project Cloud Architecture",
+              "item_type": "project",
+              "description": "Thiết kế kiến trúc hệ thống gồm frontend, backend, database, network và security trên cloud cho một ứng dụng web ở quy mô vừa.",
+              "skill_tags": ["Cloud Architecture", "Project"],
+              "prerequisites": [
+                "cloud_iac_basics",
+                "cloud_security_basics"
+              ],
+              "required_skills": [
+                { "tag": "Cloud Computing", "min_level": 3 }
+              ],
+              "estimated_hours": 80,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "cloud_career_preparation",
+          "name": "Chuẩn bị phỏng vấn Cloud Architect",
+          "description": "System design, trade off và case study.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "cloud_interview_system_design",
+              "name": "Phỏng vấn system design trên cloud",
+              "item_type": "skill",
+              "description": "Luyện thiết kế các hệ thống phổ biến: social feed, file storage, streaming log.",
+              "skill_tags": ["System Design Interview"],
+              "prerequisites": [
+                "cloud_architecture_patterns",
+                "cloud_reliability_basics"
+              ],
+              "required_skills": [
+                { "tag": "System Design", "min_level": 2 }
+              ],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

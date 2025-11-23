@@ -1,0 +1,240 @@
+{
+  "career_id": "full_stack_developer",
+  "career_name": "Full Stack Developer",
+  "description": "Lộ trình trở thành Full Stack Developer dựa trên frontend, backend và devops cơ bản.",
+  "stages": [
+    {
+      "id": "stage_1_fs_foundation",
+      "name": "Giai đoạn 1 - Nền tảng web và lập trình",
+      "description": "HTML, CSS, JavaScript cơ bản và lập trình hướng đối tượng.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "fs_frontend_basics",
+          "name": "Frontend cơ bản",
+          "description": "Kiến thức nền tảng để dựng giao diện web.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "fs_html_css_basics",
+              "name": "HTML và CSS",
+              "item_type": "skill",
+              "description": "Cấu trúc trang, layout cơ bản, responsive đơn giản.",
+              "skill_tags": ["HTML", "CSS"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 1
+            },
+            {
+              "id": "fs_js_basics",
+              "name": "JavaScript cơ bản",
+              "item_type": "skill",
+              "description": "Biến, hàm, DOM, event, fetch API.",
+              "skill_tags": ["JavaScript"],
+              "prerequisites": ["fs_html_css_basics"],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "fs_programming_core",
+          "name": "Tư duy lập trình và OOP",
+          "description": "Học tư duy giải quyết vấn đề và OOP ở mức cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "fs_oop_basics",
+              "name": "OOP và cấu trúc dữ liệu cơ bản",
+              "item_type": "concept",
+              "description": "Class, object, list, map, xử lý collection.",
+              "skill_tags": ["OOP Basics", "Programming Fundamentals"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_fs_core",
+      "name": "Giai đoạn 2 - Frontend framework và backend",
+      "description": "Học một frontend framework và một backend framework.",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "fs_frontend_framework",
+          "name": "Frontend framework",
+          "description": "React hoặc framework tương đương.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "fs_react_basics",
+              "name": "React cơ bản",
+              "item_type": "skill",
+              "description": "Component, props, state, hook cơ bản.",
+              "skill_tags": ["React", "Frontend Development"],
+              "prerequisites": ["fs_js_basics"],
+              "required_skills": [
+                { "tag": "JavaScript", "min_level": 2 }
+              ],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "fs_backend_framework",
+          "name": "Backend framework",
+          "description": "Node.js hoặc một backend stack khác.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "fs_node_express_basics",
+              "name": "Node.js và Express cơ bản",
+              "item_type": "skill",
+              "description": "REST API, routing, middleware, xử lý JSON.",
+              "skill_tags": ["Node.js", "Backend Development"],
+              "prerequisites": ["fs_js_basics"],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 1
+            },
+            {
+              "id": "fs_database_basic_crud",
+              "name": "Kết nối database và CRUD",
+              "item_type": "skill",
+              "description": "Dùng SQL hoặc NoSQL để lưu dữ liệu từ API.",
+              "skill_tags": ["Databases", "SQL"],
+              "prerequisites": ["fs_node_express_basics"],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_fs_advanced",
+      "name": "Giai đoạn 3 - Full stack thực tế và devops cơ bản",
+      "description": "Xây dựng ứng dụng full stack, authentication và deploy.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "fs_fullstack_patterns",
+          "name": "Mẫu thiết kế full stack",
+          "description": "SPA, API, state management cơ bản.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "fs_authentication_basics",
+              "name": "Authentication và authorization",
+              "item_type": "concept",
+              "description": "Session, token cơ bản, login logout.",
+              "skill_tags": ["Web Security", "Backend Development"],
+              "prerequisites": [
+                "fs_node_express_basics",
+                "fs_react_basics"
+              ],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "fs_devops_basics",
+          "name": "Deploy và devops cơ bản",
+          "description": "Docker, CI CD mức giới thiệu.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "fs_docker_intro",
+              "name": "Docker cơ bản",
+              "item_type": "skill",
+              "description": "Đóng gói ứng dụng backend hoặc full stack vào container.",
+              "skill_tags": ["Docker", "DevOps Basics"],
+              "prerequisites": ["fs_node_express_basics"],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "fs_deploy_cloud_basic",
+              "name": "Deploy lên cloud cơ bản",
+              "item_type": "skill",
+              "description": "Deploy app lên một dịch vụ hosting hoặc cloud đơn giản.",
+              "skill_tags": ["Deployment"],
+              "prerequisites": ["fs_docker_intro"],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_fs_career",
+      "name": "Giai đoạn 4 - Dự án full stack và phỏng vấn",
+      "description": "Hoàn thiện 1 2 dự án full stack và luyện phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "fs_capstone_area",
+          "name": "Dự án capstone Full Stack",
+          "description": "Ứng dụng web full stack hoàn chỉnh.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "fs_capstone_project",
+              "name": "Capstone project Full Stack",
+              "item_type": "project",
+              "description": "Xây dựng một ứng dụng full stack có auth, CRUD, giao diện responsive và deploy lên môi trường thật.",
+              "skill_tags": ["Full Stack Development", "Project"],
+              "prerequisites": [
+                "fs_react_basics",
+                "fs_database_basic_crud",
+                "fs_deploy_cloud_basic"
+              ],
+              "required_skills": [
+                { "tag": "Frontend Development", "min_level": 2 },
+                { "tag": "Backend Development", "min_level": 2 }
+              ],
+              "estimated_hours": 80,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "fs_career_preparation",
+          "name": "Chuẩn bị phỏng vấn Full Stack",
+          "description": "Thuật toán cơ bản, câu hỏi web và system design nhỏ.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "fs_interview_prep",
+              "name": "Phỏng vấn coding và web",
+              "item_type": "skill",
+              "description": "Ôn lại cấu trúc dữ liệu cơ bản, HTTP, cookie, session, cross origin.",
+              "skill_tags": ["Full Stack Interview"],
+              "prerequisites": ["fs_capstone_project"],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

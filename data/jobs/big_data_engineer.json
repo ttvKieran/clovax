@@ -1,0 +1,304 @@
+{
+  "career_id": "big_data_engineer",
+  "career_name": "Big Data Engineer",
+  "description": "Lộ trình trở thành Big Data Engineer, tập trung vào hạ tầng xử lý dữ liệu lớn, batch và streaming.",
+  "stages": [
+    {
+      "id": "stage_1_bde_foundation",
+      "name": "Giai đoạn 1 - Nền tảng lập trình và hệ thống",
+      "description": "Lập trình, hệ điều hành, mạng và cơ sở dữ liệu ở mức cơ bản.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "bde_programming_basics",
+          "name": "Lập trình cho data",
+          "description": "Python hoặc Java cho phát triển data pipeline.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bde_python_java_basics",
+              "name": "Lập trình Python hoặc Java cơ bản",
+              "item_type": "skill",
+              "description": "Cấu trúc điều khiển, hàm, module, xử lý ngoại lệ.",
+              "skill_tags": ["Python", "Java", "Programming Fundamentals"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bde_systems_basics",
+          "name": "Hệ điều hành và mạng cơ bản",
+          "description": "Hiểu cách hệ thống chạy ứng dụng và giao tiếp.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bde_linux_basics",
+              "name": "Linux cơ bản",
+              "item_type": "skill",
+              "description": "Command line, process, file system, shell script đơn giản.",
+              "skill_tags": ["Linux", "Operating Systems"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "bde_networking_basics",
+              "name": "Mạng máy tính cơ bản",
+              "item_type": "concept",
+              "description": "TCP IP, DNS, HTTP, concept client server.",
+              "skill_tags": ["Computer Networks"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "bde_database_basics",
+          "name": "Cơ sở dữ liệu cơ bản",
+          "description": "CSDL quan hệ và SQL.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "bde_relational_sql_basics",
+              "name": "SQL và mô hình quan hệ",
+              "item_type": "skill",
+              "description": "Thiết kế bảng, khóa, JOIN, index cơ bản.",
+              "skill_tags": ["SQL", "Databases"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_bde_core_data",
+      "name": "Giai đoạn 2 - Core Data Engineering",
+      "description": "Hệ thống dữ liệu hiện đại, batch và streaming, kho dữ liệu.",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "bde_big_data_ecosystem",
+          "name": "Hệ sinh thái Big Data",
+          "description": "Các thành phần cơ bản trong kiến trúc dữ liệu lớn.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bde_hadoop_spark_intro",
+              "name": "Nhập môn Hadoop và Spark",
+              "item_type": "concept",
+              "description": "Ý tưởng HDFS, MapReduce, Spark RDD và DataFrame mức khái niệm.",
+              "skill_tags": ["Big Data", "Apache Spark"],
+              "prerequisites": [
+                "bde_linux_basics",
+                "bde_relational_sql_basics"
+              ],
+              "required_skills": [
+                { "tag": "Linux", "min_level": 1 },
+                { "tag": "SQL", "min_level": 1 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bde_data_modeling",
+          "name": "Mô hình hóa dữ liệu và kho dữ liệu",
+          "description": "Thiết kế schema cho phân tích và báo cáo.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bde_dimensional_modeling",
+              "name": "Mô hình hóa dữ liệu đa chiều",
+              "item_type": "concept",
+              "description": "Star schema, snowflake schema, fact và dimension table.",
+              "skill_tags": ["Data Modeling", "Data Warehousing"],
+              "prerequisites": ["bde_relational_sql_basics"],
+              "required_skills": [
+                { "tag": "Databases", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bde_etl_pipelines",
+          "name": "ETL và data pipeline",
+          "description": "Thiết kế và xây dựng pipeline xử lý dữ liệu.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "bde_batch_etl_basics",
+              "name": "Batch ETL pipeline",
+              "item_type": "skill",
+              "description": "Thiết kế pipeline trích xuất, transform, load từ hệ thống nguồn vào kho dữ liệu.",
+              "skill_tags": ["Data Engineering", "ETL"],
+              "prerequisites": [
+                "bde_hadoop_spark_intro",
+                "bde_dimensional_modeling"
+              ],
+              "required_skills": [
+                { "tag": "Big Data", "min_level": 1 },
+                { "tag": "Data Warehousing", "min_level": 1 }
+              ],
+              "estimated_hours": 40,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_bde_advanced",
+      "name": "Giai đoạn 3 - Streaming, cloud và reliability",
+      "description": "Xử lý thời gian thực, cloud data platform, data quality.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "bde_stream_processing",
+          "name": "Xử lý dữ liệu streaming",
+          "description": "Thông điệp, queue, stream processing cơ bản.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bde_kafka_basics",
+              "name": "Apache Kafka cơ bản",
+              "item_type": "concept",
+              "description": "Producer, broker, topic, partition, consumer group.",
+              "skill_tags": ["Streaming", "Apache Kafka"],
+              "prerequisites": ["bde_networking_basics"],
+              "required_skills": [
+                { "tag": "Computer Networks", "min_level": 1 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "bde_streaming_frameworks",
+              "name": "Spark Streaming hoặc Flink",
+              "item_type": "concept",
+              "description": "Khái niệm xử lý stream, windowing, state.",
+              "skill_tags": ["Streaming", "Big Data"],
+              "prerequisites": ["bde_hadoop_spark_intro"],
+              "required_skills": [
+                { "tag": "Apache Spark", "min_level": 1 }
+              ],
+              "estimated_hours": 35,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "bde_cloud_data_platform",
+          "name": "Nền tảng dữ liệu trên cloud",
+          "description": "Data lake, warehouse và công cụ cloud.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bde_cloud_warehouse_intro",
+              "name": "Kho dữ liệu cloud",
+              "item_type": "concept",
+              "description": "BigQuery, Redshift, Snowflake ở mức khái niệm.",
+              "skill_tags": ["Cloud", "Data Warehousing"],
+              "prerequisites": ["bde_dimensional_modeling"],
+              "required_skills": [
+                { "tag": "Data Warehousing", "min_level": 1 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bde_data_quality_governance",
+          "name": "Data quality và governance",
+          "description": "Đảm bảo dữ liệu chính xác, đầy đủ và traceable.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "bde_data_quality_checks",
+              "name": "Kiểm soát chất lượng dữ liệu",
+              "item_type": "skill",
+              "description": "Rule kiểm tra, monitoring, alert khi dữ liệu bất thường.",
+              "skill_tags": ["Data Quality"],
+              "prerequisites": ["bde_batch_etl_basics"],
+              "required_skills": [
+                { "tag": "Data Engineering", "min_level": 2 }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_bde_career",
+      "name": "Giai đoạn 4 - Thiết kế kiến trúc dữ liệu và sự nghiệp",
+      "description": "Thiết kế kiến trúc, tối ưu chi phí và chuẩn bị phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "bde_architecture_design",
+          "name": "Thiết kế kiến trúc dữ liệu",
+          "description": "Kết hợp batch, streaming, lake và warehouse.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "bde_data_platform_design",
+              "name": "Thiết kế data platform tổng thể",
+              "item_type": "project",
+              "description": "Thiết kế mô hình kiến trúc cho hệ thống dữ liệu doanh nghiệp giả lập, mô tả chi tiết các thành phần.",
+              "skill_tags": ["Data Engineering", "System Design"],
+              "prerequisites": [
+                "bde_streaming_frameworks",
+                "bde_cloud_warehouse_intro"
+              ],
+              "required_skills": [
+                { "tag": "Big Data", "min_level": 2 },
+                { "tag": "Cloud", "min_level": 1 }
+              ],
+              "estimated_hours": 60,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "bde_career_preparation",
+          "name": "Chuẩn bị phỏng vấn Data Engineer",
+          "description": "Luyện câu hỏi SQL, hệ thống, pipeline và tình huống thực tế.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "bde_interview_sql_system",
+              "name": "Phỏng vấn SQL và thiết kế pipeline",
+              "item_type": "skill",
+              "description": "Ôn bài SQL nâng cao, bài toán thiết kế pipeline cho case cụ thể.",
+              "skill_tags": ["Data Engineering Interview"],
+              "prerequisites": ["bde_batch_etl_basics"],
+              "required_skills": [
+                { "tag": "SQL", "min_level": 3 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

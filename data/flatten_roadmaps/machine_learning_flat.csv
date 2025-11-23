@@ -1,0 +1,134 @@
+﻿doc_id,career_id,stage_id,area_id,text
+ml_python_fundamentals,machine_learning,stage_1_ml_foundation,ml_programming_basics,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình & toán cho ML
+Lĩnh vực: Lập trình Python cho dữ liệu
+Mục: 
+Mô tả: Kiểu dữ liệu, list, dict, function, module, virtualenv, pip.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_python_data_stack,machine_learning,stage_1_ml_foundation,ml_programming_basics,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình & toán cho ML
+Lĩnh vực: Lập trình Python cho dữ liệu
+Mục: 
+Mô tả: Mảng NumPy, Series, DataFrame, lọc, group, merge, xử lý missing.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_linear_algebra_basics,machine_learning,stage_1_ml_foundation,ml_math_foundations,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình & toán cho ML
+Lĩnh vực: Toán cho Machine Learning
+Mục: 
+Mô tả: Vector, ma trận, tích vô hướng, chuẩn, trị riêng, vector riêng mức trực giác.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_calculus_for_optimization,machine_learning,stage_1_ml_foundation,ml_math_foundations,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình & toán cho ML
+Lĩnh vực: Toán cho Machine Learning
+Mục: 
+Mô tả: Đạo hàm, gradient, đa biến, tối ưu hàm đơn giản.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_probability_statistics,machine_learning,stage_1_ml_foundation,ml_math_foundations,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình & toán cho ML
+Lĩnh vực: Toán cho Machine Learning
+Mục: 
+Mô tả: Biến ngẫu nhiên, phân phối, kỳ vọng, ước lượng, kiểm định giả thuyết.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_data_formats,machine_learning,stage_1_ml_foundation,ml_data_basics,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình & toán cho ML
+Lĩnh vực: Nhập môn dữ liệu
+Mục: 
+Mô tả: CSV, JSON, Parquet ở mức khái niệm; đọc/ghi bằng Python.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_sklearn_pipeline_basics,machine_learning,stage_2_core_ml,ml_supervised_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Học có giám sát
+Mục: 
+Mô tả: Split train test, pipeline, cross validation, metric cơ bản.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_linear_models,machine_learning,stage_2_core_ml,ml_supervised_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Học có giám sát
+Mục: 
+Mô tả: Mô hình tuyến tính, hàm mất mát, regularization L1 L2.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_tree_based_models,machine_learning,stage_2_core_ml,ml_supervised_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Học có giám sát
+Mục: 
+Mô tả: Cây quyết định, ensemble, bias variance, feature importance.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_clustering_basics,machine_learning,stage_2_core_ml,ml_unsupervised_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Học không giám sát
+Mục: 
+Mô tả: Khái niệm khoảng cách, số cụm, đánh giá chất lượng cụm.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_dimensionality_reduction,machine_learning,stage_2_core_ml,ml_unsupervised_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Học không giám sát
+Mục: 
+Mô tả: PCA mức trực giác, embedding cơ bản.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_end_to_end_project,machine_learning,stage_2_core_ml,ml_model_practice,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Thực hành xây dựng mô hình
+Mục: 
+Mô tả: Chọn một bộ dữ liệu tabular, làm sạch dữ liệu, train vài model, so sánh và báo cáo kết quả.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_neural_network_basics,machine_learning,stage_3_advanced_ml,ml_deep_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 3 - Deep Learning và chuyên sâu
+Lĩnh vực: Deep Learning cơ bản
+Mục: 
+Mô tả: Perceptron, mạng nhiều tầng, hàm kích hoạt, hàm mất mát.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+ml_dl_frameworks,machine_learning,stage_3_advanced_ml,ml_deep_learning,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 3 - Deep Learning và chuyên sâu
+Lĩnh vực: Deep Learning cơ bản
+Mục: 
+Mô tả: Xây dựng, huấn luyện, debug mô hình mạng neural cơ bản.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+ml_nlp_basics,machine_learning,stage_3_advanced_ml,ml_specialization,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 3 - Deep Learning và chuyên sâu
+Lĩnh vực: Chuyên sâu NLP hoặc Computer Vision
+Mục: 
+Mô tả: Tokenization, embedding, RNN mức khái niệm, mô hình ngôn ngữ cơ bản.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+ml_cv_basics,machine_learning,stage_3_advanced_ml,ml_specialization,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 3 - Deep Learning và chuyên sâu
+Lĩnh vực: Chuyên sâu NLP hoặc Computer Vision
+Mục: 
+Mô tả: Convolutional neural network, pooling, kiến trúc CNN cổ điển.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+ml_serving_basics,machine_learning,stage_3_advanced_ml,ml_mops,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 3 - Deep Learning và chuyên sâu
+Lĩnh vực: MLOps cơ bản
+Mục: 
+Mô tả: Đóng gói mô hình thành API với Flask hoặc FastAPI, container hóa bằng Docker ở mức cơ bản.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+ml_capstone_project,machine_learning,stage_4_ml_career,ml_capstone_area,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 4 - Portfolio và phỏng vấn ML
+Lĩnh vực: Dự án capstone ML
+Mục: 
+Mô tả: Chọn bài toán thực tế (tabular, NLP hoặc CV), xây pipeline từ thu thập dữ liệu, huấn luyện, tối ưu, triển khai và viết báo cáo.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+ml_interview_theory,machine_learning,stage_4_ml_career,ml_career_preparation,"Nghề: Machine Learning Engineer (machine_learning)
+Giai đoạn: Giai đoạn 4 - Portfolio và phỏng vấn ML
+Lĩnh vực: Chuẩn bị phỏng vấn ML
+Mục: 
+Mô tả: Bias variance, overfitting, regularization, feature engineering, cách chọn model.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"

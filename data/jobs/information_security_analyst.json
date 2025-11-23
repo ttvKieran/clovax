@@ -1,0 +1,261 @@
+{
+  "career_id": "information_security_analyst",
+  "career_name": "Information Security Analyst",
+  "description": "Lộ trình trở thành Information Security Analyst, tập trung vào hệ thống, mạng, nền tảng bảo mật và monitoring.",
+  "stages": [
+    {
+      "id": "stage_1_sec_foundation",
+      "name": "Giai đoạn 1 - Nền tảng hệ thống và mạng",
+      "description": "Linux, mạng máy tính và cơ bản về hệ điều hành.",
+      "order_index": 1,
+      "recommended_semesters": [1, 2],
+      "areas": [
+        {
+          "id": "sec_systems_basics",
+          "name": "Hệ thống cơ bản",
+          "description": "Linux, permission và process.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "sec_linux_basics",
+              "name": "Linux và command line",
+              "item_type": "skill",
+              "description": "Command cơ bản, user, group, quyền file.",
+              "skill_tags": ["Linux", "Operating Systems"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "sec_network_basics",
+          "name": "Mạng máy tính",
+          "description": "TCP IP, mô hình OSI và protocol cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "sec_network_fundamentals",
+              "name": "Network fundamentals",
+              "item_type": "concept",
+              "description": "IP, subnet, routing, DNS, HTTP.",
+              "skill_tags": ["Computer Networks"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_sec_core",
+      "name": "Giai đoạn 2 - Core Security",
+      "description": "Concept bảo mật, cryptography cơ bản, web và network security.",
+      "order_index": 2,
+      "recommended_semesters": [3, 4],
+      "areas": [
+        {
+          "id": "sec_security_concepts",
+          "name": "Khái niệm an toàn thông tin",
+          "description": "CIA triad, risk, threat, vulnerability.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "sec_cia_risk_basics",
+              "name": "CIA và quản lý rủi ro cơ bản",
+              "item_type": "concept",
+              "description": "Confidentiality, integrity, availability, threat modeling mức nền tảng.",
+              "skill_tags": ["Security Fundamentals"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 25,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "sec_crypto_basics",
+          "name": "Mật mã học cơ bản",
+          "description": "Khóa đối xứng, bất đối xứng và hash.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "sec_crypto_concepts",
+              "name": "Khái niệm mật mã học",
+              "item_type": "concept",
+              "description": "Encryption, signature, hash, TLS ở mức khái niệm.",
+              "skill_tags": ["Cryptography"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "sec_network_web_security",
+          "name": "Network và web security cơ bản",
+          "description": "Firewall, proxy, các lỗ hổng web phổ biến.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "sec_network_security_basics",
+              "name": "Bảo mật mạng cơ bản",
+              "item_type": "concept",
+              "description": "Firewall, IDS IPS, VPN ở mức giới thiệu.",
+              "skill_tags": ["Network Security"],
+              "prerequisites": ["sec_network_fundamentals"],
+              "required_skills": [
+                { "tag": "Computer Networks", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "sec_web_vulnerabilities_intro",
+              "name": "Lỗ hổng web phổ biến",
+              "item_type": "concept",
+              "description": "XSS, SQL injection, authentication flaw ở mức khái niệm.",
+              "skill_tags": ["Web Security"],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_sec_operations",
+      "name": "Giai đoạn 3 - Security operations và monitoring",
+      "description": "Log, SIEM, incident response và hardening hệ thống.",
+      "order_index": 3,
+      "recommended_semesters": [5, 6],
+      "areas": [
+        {
+          "id": "sec_logging_monitoring",
+          "name": "Logging và monitoring",
+          "description": "Thu thập, phân tích log và alert.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "sec_log_sources_basics",
+              "name": "Nguồn log và định dạng",
+              "item_type": "concept",
+              "description": "Syslog, application log, web server log.",
+              "skill_tags": ["Security Monitoring"],
+              "prerequisites": [
+                "sec_linux_basics",
+                "sec_network_fundamentals"
+              ],
+              "required_skills": [],
+              "estimated_hours": 25,
+              "order_index": 1
+            },
+            {
+              "id": "sec_siem_basics",
+              "name": "SIEM cơ bản",
+              "item_type": "skill",
+              "description": "Ý tưởng SIEM, rule phát hiện đơn giản, dashboard alert.",
+              "skill_tags": ["Security Monitoring", "SIEM"],
+              "prerequisites": ["sec_log_sources_basics"],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        },
+        {
+          "id": "sec_hardening_incident",
+          "name": "Hardening và incident response",
+          "description": "Giảm bề mặt tấn công và quy trình xử lý sự cố.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "sec_system_hardening",
+              "name": "Hardening hệ thống",
+              "item_type": "skill",
+              "description": "Cấu hình secure default, update patch, hạn chế service không cần thiết.",
+              "skill_tags": ["System Security"],
+              "prerequisites": ["sec_linux_basics"],
+              "required_skills": [
+                { "tag": "Operating Systems", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1
+            },
+            {
+              "id": "sec_incident_response_basics",
+              "name": "Incident response cơ bản",
+              "item_type": "concept",
+              "description": "Detect, contain, eradicate, recover và post incident review.",
+              "skill_tags": ["Incident Response"],
+              "prerequisites": ["sec_cia_risk_basics"],
+              "required_skills": [
+                { "tag": "Security Fundamentals", "min_level": 2 }
+              ],
+              "estimated_hours": 30,
+              "order_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_sec_career",
+      "name": "Giai đoạn 4 - Chuyên sâu SOC Analyst và phỏng vấn",
+      "description": "Mô phỏng công việc SOC Analyst và chuẩn bị chứng chỉ, phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [7, 8],
+      "areas": [
+        {
+          "id": "sec_soc_capstone",
+          "name": "Dự án SOC mini",
+          "description": "Mô phỏng giám sát và xử lý sự cố trong môi trường nhỏ.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "sec_soc_capstone_project",
+              "name": "Capstone project Security Operations",
+              "item_type": "project",
+              "description": "Xây dựng lab gồm vài máy chủ, thu thập log vào SIEM và viết playbook xử lý cho một vài kịch bản tấn công cơ bản.",
+              "skill_tags": ["Security Operations", "Project"],
+              "prerequisites": [
+                "sec_siem_basics",
+                "sec_system_hardening"
+              ],
+              "required_skills": [
+                { "tag": "Security Monitoring", "min_level": 2 }
+              ],
+              "estimated_hours": 70,
+              "order_index": 1
+            }
+          ]
+        },
+        {
+          "id": "sec_career_preparation",
+          "name": "Chuẩn bị phỏng vấn Information Security Analyst",
+          "description": "Câu hỏi kiến thức nền, case incident và log analysis.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "sec_interview_prep",
+              "name": "Phỏng vấn kiến thức bảo mật và case",
+              "item_type": "skill",
+              "description": "Ôn lại CIA, network, web, log và luyện case xử lý sự cố trong SOC.",
+              "skill_tags": ["Security Interview"],
+              "prerequisites": ["sec_soc_capstone_project"],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+﻿doc_id,career_id,stage_id,area_id,text
+calc_basic,ai_data_scientist,stage_1_foundation,math_basics,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Toán cơ bản
+Mục: 
+Mô tả: Giới hạn, đạo hàm, tích phân cơ bản và ứng dụng trong tối ưu hoá hàm một biến.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+linear_algebra_basic,ai_data_scientist,stage_1_foundation,math_basics,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Toán cơ bản
+Mục: 
+Mô tả: Vector, ma trận, phép nhân, chuẩn, hệ phương trình tuyến tính, không gian vector.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+prob_stats_intro,ai_data_scientist,stage_1_foundation,math_basics,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Toán cơ bản
+Mục: 
+Mô tả: Biến ngẫu nhiên, phân phối, kỳ vọng, phương sai, luật lớn số, ước lượng trung bình & độ lệch chuẩn.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+programming_fundamentals,ai_data_scientist,stage_1_foundation,prog_python,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Lập trình & Python
+Mục: 
+Mô tả: Biến, kiểu dữ liệu, toán tử, cấu trúc rẽ nhánh, vòng lặp, hàm, debug cơ bản.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+python_basics,ai_data_scientist,stage_1_foundation,prog_python,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Lập trình & Python
+Mục: 
+Mô tả: Syntax cơ bản, list, tuple, dict, set, function, module, virtualenv.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+python_advanced,ai_data_scientist,stage_1_foundation,prog_python,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Lập trình & Python
+Mục: 
+Mô tả: List comprehension, generator, OOP cơ bản, xử lý file, logging, môi trường dự án.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+excel_data_intro,ai_data_scientist,stage_1_foundation,data_thinking,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Tư duy dữ liệu & Công cụ cơ bản
+Mục: 
+Mô tả: Lọc, sort, pivot table, vẽ biểu đồ đơn giản để hiểu phân bố dữ liệu.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+python_numpy_pandas,ai_data_scientist,stage_1_foundation,data_thinking,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Tư duy dữ liệu & Công cụ cơ bản
+Mục: 
+Mô tả: Array, Series, DataFrame, join/merge, groupby, xử lý missing value.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+basic_data_viz,ai_data_scientist,stage_1_foundation,data_thinking,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 1 - Nền tảng
+Lĩnh vực: Tư duy dữ liệu & Công cụ cơ bản
+Mục: 
+Mô tả: Histogram, boxplot, scatter plot; đọc hiểu biểu đồ để rút insight đơn giản.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+ml_concepts,ai_data_scientist,stage_2_core_ml,ml_fundamentals,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: ML cơ bản
+Mục: 
+Mô tả: Supervised vs unsupervised, overfitting, bias-variance, train/val/test, pipeline cơ bản.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_metrics,ai_data_scientist,stage_2_core_ml,ml_fundamentals,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: ML cơ bản
+Mục: 
+Mô tả: Accuracy, precision, recall, F1, ROC-AUC, MSE, MAE; chọn metric phù hợp bài toán.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+linear_regression,ai_data_scientist,stage_2_core_ml,ml_algorithms_core,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Thuật toán ML cốt lõi
+Mục: 
+Mô tả: Loss function, gradient descent cơ bản, implement bằng NumPy / scikit-learn.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+logistic_regression,ai_data_scientist,stage_2_core_ml,ml_algorithms_core,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Thuật toán ML cốt lõi
+Mục: 
+Mô tả: Hàm sigmoid, cross-entropy loss, phân lớp nhị phân với scikit-learn.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+tree_based_models,ai_data_scientist,stage_2_core_ml,ml_algorithms_core,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Thuật toán ML cốt lõi
+Mục: 
+Mô tả: Cây quyết định, entropy/Gini, bagging, random forest; ưu/nhược điểm.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+unsupervised_learning,ai_data_scientist,stage_2_core_ml,ml_algorithms_core,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Thuật toán ML cốt lõi
+Mục: 
+Mô tả: Clustering (k-means), dimensionality reduction (PCA), use-case thực tế.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+ml_project_tabular,ai_data_scientist,stage_2_core_ml,ml_practice_projects,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 2 - Core Machine Learning
+Lĩnh vực: Thực hành ML với project nhỏ
+Mục: 
+Mô tả: Chọn 1 dataset (Kaggle/UCI), làm đầy đủ: EDA, feature engineering, chọn model, tuning cơ bản, đánh giá & báo cáo.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+nn_fundamentals,ai_data_scientist,stage_3_deep_learning,dl_core,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 3 - Deep Learning & Ứng dụng
+Lĩnh vực: Deep Learning cơ bản
+Mục: 
+Mô tả: Perceptron, fully connected network, hàm kích hoạt, loss, gradient descent, backpropagation (ý tưởng).
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+framework_pytorch_or_tf,ai_data_scientist,stage_3_deep_learning,dl_core,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 3 - Deep Learning & Ứng dụng
+Lĩnh vực: Deep Learning cơ bản
+Mục: 
+Mô tả: Tensor, auto-grad, xây dựng model đơn giản, training loop, lưu & load model.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+cnn_basics,ai_data_scientist,stage_3_deep_learning,dl_vision_nlp,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 3 - Deep Learning & Ứng dụng
+Lĩnh vực: Ứng dụng: Computer Vision & NLP cơ bản
+Mục: 
+Mô tả: Convolution, pooling, kiến trúc CNN đơn giản, ứng dụng phân loại ảnh.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+nlp_basics,ai_data_scientist,stage_3_deep_learning,dl_vision_nlp,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 3 - Deep Learning & Ứng dụng
+Lĩnh vực: Ứng dụng: Computer Vision & NLP cơ bản
+Mục: 
+Mô tả: Tokenization, word embedding (Word2Vec, GloVe), sequence model cơ bản.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+vision_project,ai_data_scientist,stage_3_deep_learning,dl_projects,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 3 - Deep Learning & Ứng dụng
+Lĩnh vực: Project Deep Learning
+Mục: 
+Mô tả: Dataset hình ảnh nhỏ (CIFAR-10, Dogs vs Cats,...), train CNN, đánh giá, viết báo cáo.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+nlp_project,ai_data_scientist,stage_3_deep_learning,dl_projects,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 3 - Deep Learning & Ứng dụng
+Lĩnh vực: Project Deep Learning
+Mục: 
+Mô tả: Thu thập dữ liệu text (ví dụ: review sản phẩm), tiền xử lý, xây model (RNN/CNN/BERT cơ bản), đánh giá.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+model_serving_api,ai_data_scientist,stage_4_specialization_career,mlops_deployment,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Triển khai mô hình & MLOps cơ bản
+Mục: 
+Mô tả: Dùng Flask/FastAPI, load model đã train, expose REST API, test với client.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+docker_basics_ml,ai_data_scientist,stage_4_specialization_career,mlops_deployment,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Triển khai mô hình & MLOps cơ bản
+Mục: 
+Mô tả: Tạo Dockerfile, build image, chạy container chứa API model.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+specialize_nlp,ai_data_scientist,stage_4_specialization_career,specialization_paths,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Nhánh chuyên sâu
+Mục: 
+Mô tả: Transformer, attention, BERT, fine-tuning mô hình ngôn ngữ cho tiếng Việt / tiếng Anh.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+specialize_cv,ai_data_scientist,stage_4_specialization_career,specialization_paths,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Nhánh chuyên sâu
+Mục: 
+Mô tả: ResNet, object detection (YOLO, Faster R-CNN), transfer learning.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+specialize_ds_classic,ai_data_scientist,stage_4_specialization_career,specialization_paths,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Nhánh chuyên sâu
+Mục: 
+Mô tả: Feature engineering nâng cao, time-series, interpretability (SHAP, LIME).
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+portfolio_building,ai_data_scientist,stage_4_specialization_career,career_preparation,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Chuẩn bị đi làm & Portfolio
+Mục: 
+Mô tả: Tổng hợp 3–5 project tốt nhất (tabular, CV, NLP), viết README chi tiết, deploy demo (nếu có).
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+interview_prep_ai,ai_data_scientist,stage_4_specialization_career,career_preparation,"Nghề: AI & Data Scientist (ai_data_scientist)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu & Chuẩn bị đi làm
+Lĩnh vực: Chuẩn bị đi làm & Portfolio
+Mục: 
+Mô tả: Ôn lại xác suất, thống kê, ML cơ bản; luyện giải thích mô hình và project; mock interview.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"

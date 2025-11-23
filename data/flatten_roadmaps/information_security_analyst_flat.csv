@@ -1,0 +1,85 @@
+﻿doc_id,career_id,stage_id,area_id,text
+sec_linux_basics,information_security_analyst,stage_1_sec_foundation,sec_systems_basics,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 1 - Nền tảng hệ thống và mạng
+Lĩnh vực: Hệ thống cơ bản
+Mục: 
+Mô tả: Command cơ bản, user, group, quyền file.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+sec_network_fundamentals,information_security_analyst,stage_1_sec_foundation,sec_network_basics,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 1 - Nền tảng hệ thống và mạng
+Lĩnh vực: Mạng máy tính
+Mục: 
+Mô tả: IP, subnet, routing, DNS, HTTP.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+sec_cia_risk_basics,information_security_analyst,stage_2_sec_core,sec_security_concepts,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 2 - Core Security
+Lĩnh vực: Khái niệm an toàn thông tin
+Mục: 
+Mô tả: Confidentiality, integrity, availability, threat modeling mức nền tảng.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+sec_crypto_concepts,information_security_analyst,stage_2_sec_core,sec_crypto_basics,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 2 - Core Security
+Lĩnh vực: Mật mã học cơ bản
+Mục: 
+Mô tả: Encryption, signature, hash, TLS ở mức khái niệm.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+sec_network_security_basics,information_security_analyst,stage_2_sec_core,sec_network_web_security,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 2 - Core Security
+Lĩnh vực: Network và web security cơ bản
+Mục: 
+Mô tả: Firewall, IDS IPS, VPN ở mức giới thiệu.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+sec_web_vulnerabilities_intro,information_security_analyst,stage_2_sec_core,sec_network_web_security,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 2 - Core Security
+Lĩnh vực: Network và web security cơ bản
+Mục: 
+Mô tả: XSS, SQL injection, authentication flaw ở mức khái niệm.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+sec_log_sources_basics,information_security_analyst,stage_3_sec_operations,sec_logging_monitoring,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 3 - Security operations và monitoring
+Lĩnh vực: Logging và monitoring
+Mục: 
+Mô tả: Syslog, application log, web server log.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+sec_siem_basics,information_security_analyst,stage_3_sec_operations,sec_logging_monitoring,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 3 - Security operations và monitoring
+Lĩnh vực: Logging và monitoring
+Mục: 
+Mô tả: Ý tưởng SIEM, rule phát hiện đơn giản, dashboard alert.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+sec_system_hardening,information_security_analyst,stage_3_sec_operations,sec_hardening_incident,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 3 - Security operations và monitoring
+Lĩnh vực: Hardening và incident response
+Mục: 
+Mô tả: Cấu hình secure default, update patch, hạn chế service không cần thiết.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+sec_incident_response_basics,information_security_analyst,stage_3_sec_operations,sec_hardening_incident,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 3 - Security operations và monitoring
+Lĩnh vực: Hardening và incident response
+Mục: 
+Mô tả: Detect, contain, eradicate, recover và post incident review.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+sec_soc_capstone_project,information_security_analyst,stage_4_sec_career,sec_soc_capstone,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu SOC Analyst và phỏng vấn
+Lĩnh vực: Dự án SOC mini
+Mục: 
+Mô tả: Xây dựng lab gồm vài máy chủ, thu thập log vào SIEM và viết playbook xử lý cho một vài kịch bản tấn công cơ bản.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+sec_interview_prep,information_security_analyst,stage_4_sec_career,sec_career_preparation,"Nghề: Information Security Analyst (information_security_analyst)
+Giai đoạn: Giai đoạn 4 - Chuyên sâu SOC Analyst và phỏng vấn
+Lĩnh vực: Chuẩn bị phỏng vấn Information Security Analyst
+Mục: 
+Mô tả: Ôn lại CIA, network, web, log và luyện case xử lý sự cố trong SOC.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"

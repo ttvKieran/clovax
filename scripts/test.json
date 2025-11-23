@@ -1,0 +1,661 @@
+{
+  "career_id": "machine_learning",
+  "career_name": "Machine Learning Engineer",
+  "description": "Lộ trình trở thành Machine Learning Engineer với nền tảng toán, lập trình, ML core và triển khai mô hình.",
+  "stages": [
+    {
+      "id": "stage_1_ml_foundation",
+      "name": "Giai đoạn 1 - Nền tảng lập trình & toán cho ML",
+      "description": "Lập trình Python, xử lý dữ liệu, toán cho machine learning.",
+      "order_index": 1,
+      "recommended_semesters": [
+        1,
+        2
+      ],
+      "areas": [
+        {
+          "id": "ml_programming_basics",
+          "name": "Lập trình Python cho dữ liệu",
+          "description": "Học Python và thao tác dữ liệu cơ bản.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "ml_python_fundamentals",
+              "name": "Python cơ bản",
+              "item_type": "skill",
+              "description": "Kiểu dữ liệu, list, dict, function, module, virtualenv, pip.",
+              "skill_tags": [
+                "Python",
+                "Programming Fundamentals"
+              ],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 1,
+              "check": true,
+              "personalization": {
+                "status": "already_mastered",
+                "priority": 0,
+                "personalized_description": "Người dùng đã có kinh nghiệm Python cao (điểm 8/10).",
+                "reason": "Kĩ năng Python của bạn đã cao, không cần học lại."
+              }
+            },
+            {
+              "id": "ml_python_data_stack",
+              "name": "Thao tác dữ liệu với NumPy và Pandas",
+              "item_type": "skill",
+              "description": "Mảng NumPy, Series, DataFrame, lọc, group, merge, xử lý missing.",
+              "skill_tags": [
+                "Python",
+                "Data Manipulation"
+              ],
+              "prerequisites": [
+                "ml_python_fundamentals"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Python",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 35,
+              "order_index": 2,
+              "check": false,
+              "personalization": {
+                "status": "high_priority",
+                "priority": 1,
+                "personalized_description": "Thiếu kinh nghiệm xử lý dữ liệu cơ bản với Python.",
+                "reason": "Kĩ năng Data Analysis của bạn chỉ 4/10, cần học NumPy/Pandas để bắt đầu."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_math_foundations",
+          "name": "Toán cho Machine Learning",
+          "description": "Linear algebra, calculus và xác suất thống kê cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "ml_linear_algebra_basics",
+              "name": "Đại số tuyến tính cơ bản",
+              "item_type": "concept",
+              "description": "Vector, ma trận, tích vô hướng, chuẩn, trị riêng, vector riêng mức trực giác.",
+              "skill_tags": [
+                "Linear Algebra"
+              ],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 35,
+              "order_index": 1,
+              "check": true,
+              "personalization": {
+                "status": "already_mastered",
+                "priority": 0,
+                "personalized_description": "Đã học và hoàn thành MATH102 (Đại số 2) với điểm cao.",
+                "reason": "Điểm MATH102 9.8/10, nền toán tốt."
+              }
+            },
+            {
+              "id": "ml_calculus_for_optimization",
+              "name": "Giải tích cho tối ưu",
+              "item_type": "concept",
+              "description": "Đạo hàm, gradient, đa biến, tối ưu hàm đơn giản.",
+              "skill_tags": [
+                "Calculus"
+              ],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 30,
+              "order_index": 2,
+              "check": false,
+              "personalization": {
+                "status": "medium_priority",
+                "priority": 2,
+                "personalized_description": "Cần bổ sung kiến thức giải tích.",
+                "reason": "MATH201 (Đại số 1) có điểm 7.0/10, giải tích yếu hơn đại số."
+              }
+            },
+            {
+              "id": "ml_probability_statistics",
+              "name": "Xác suất và thống kê cho ML",
+              "item_type": "concept",
+              "description": "Biến ngẫu nhiên, phân phối, kỳ vọng, ước lượng, kiểm định giả thuyết.",
+              "skill_tags": [
+                "Probability and Statistics"
+              ],
+              "prerequisites": [],
+              "required_skills": [],
+              "estimated_hours": 40,
+              "order_index": 3,
+              "check": false,
+              "personalization": {
+                "status": "medium_priority",
+                "priority": 2,
+                "personalized_description": "Không có bộ môn thống kê trong lịch sử học tập rõ ràng.",
+                "reason": "Điểm CS202 (Mạng máy tính) thấp, có thể liên quan tới kỹ năng thống kê cần cải thiện."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_data_basics",
+          "name": "Nhập môn dữ liệu",
+          "description": "Hiểu dữ liệu dạng bảng, file, pipeline cơ bản.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "ml_data_formats",
+              "name": "Định dạng dữ liệu và thao tác file",
+              "item_type": "skill",
+              "description": "CSV, JSON, Parquet ở mức khái niệm; đọc/ghi bằng Python.",
+              "skill_tags": [
+                "Data Engineering Basics"
+              ],
+              "prerequisites": [
+                "ml_python_data_stack"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Data Manipulation",
+                  "min_level": 1
+                }
+              ],
+              "estimated_hours": 20,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "low_priority",
+                "priority": 3,
+                "personalized_description": "Không có yêu cầu nghiêm trung.",
+                "reason": "Đã làm project CSDL (MySQL), có thể có kinh nghiệm tương đương."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_2_core_ml",
+      "name": "Giai đoạn 2 - Core Machine Learning",
+      "description": "Các thuật toán học có giám sát, không giám sát, quy trình huấn luyện mô hình.",
+      "order_index": 2,
+      "recommended_semesters": [
+        3,
+        4
+      ],
+      "areas": [
+        {
+          "id": "ml_supervised_learning",
+          "name": "Học có giám sát",
+          "description": "Các mô hình regression và classification cơ bản.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "ml_sklearn_pipeline_basics",
+              "name": "Quy trình huấn luyện với scikit learn",
+              "item_type": "skill",
+              "description": "Split train test, pipeline, cross validation, metric cơ bản.",
+              "skill_tags": [
+                "Machine Learning",
+                "Model Training"
+              ],
+              "prerequisites": [
+                "ml_python_data_stack",
+                "ml_probability_statistics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Python",
+                  "min_level": 3
+                },
+                {
+                  "tag": "Probability and Statistics",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 35,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            },
+            {
+              "id": "ml_linear_models",
+              "name": "Linear regression, logistic regression",
+              "item_type": "concept",
+              "description": "Mô hình tuyến tính, hàm mất mát, regularization L1 L2.",
+              "skill_tags": [
+                "Machine Learning",
+                "Linear Models"
+              ],
+              "prerequisites": [
+                "ml_linear_algebra_basics",
+                "ml_calculus_for_optimization"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Linear Algebra",
+                  "min_level": 2
+                },
+                {
+                  "tag": "Calculus",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 30,
+              "order_index": 2,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            },
+            {
+              "id": "ml_tree_based_models",
+              "name": "Decision tree, random forest, gradient boosting",
+              "item_type": "concept",
+              "description": "Cây quyết định, ensemble, bias variance, feature importance.",
+              "skill_tags": [
+                "Machine Learning",
+                "Ensemble Methods"
+              ],
+              "prerequisites": [
+                "ml_sklearn_pipeline_basics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Machine Learning",
+                  "min_level": 1
+                }
+              ],
+              "estimated_hours": 35,
+              "order_index": 3,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_unsupervised_learning",
+          "name": "Học không giám sát",
+          "description": "Clustering, reduction chiều, anomaly detection cơ bản.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "ml_clustering_basics",
+              "name": "K means, hierarchical clustering",
+              "item_type": "concept",
+              "description": "Khái niệm khoảng cách, số cụm, đánh giá chất lượng cụm.",
+              "skill_tags": [
+                "Machine Learning",
+                "Unsupervised Learning"
+              ],
+              "prerequisites": [
+                "ml_probability_statistics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Probability and Statistics",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 25,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            },
+            {
+              "id": "ml_dimensionality_reduction",
+              "name": "Giảm chiều dữ liệu",
+              "item_type": "concept",
+              "description": "PCA mức trực giác, embedding cơ bản.",
+              "skill_tags": [
+                "Machine Learning",
+                "Dimensionality Reduction"
+              ],
+              "prerequisites": [
+                "ml_linear_algebra_basics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Linear Algebra",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 25,
+              "order_index": 2,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_model_practice",
+          "name": "Thực hành xây dựng mô hình",
+          "description": "End to end từ dữ liệu thô đến mô hình baseline.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "ml_end_to_end_project",
+              "name": "Mini project end to end",
+              "item_type": "project",
+              "description": "Chọn một bộ dữ liệu tabular, làm sạch dữ liệu, train vài model, so sánh và báo cáo kết quả.",
+              "skill_tags": [
+                "Machine Learning",
+                "Project"
+              ],
+              "prerequisites": [
+                "ml_sklearn_pipeline_basics",
+                "ml_tree_based_models"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Machine Learning",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 50,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_3_advanced_ml",
+      "name": "Giai đoạn 3 - Deep Learning và chuyên sâu",
+      "description": "Deep learning, NLP, computer vision, MLOps.",
+      "order_index": 3,
+      "recommended_semesters": [
+        5,
+        6
+      ],
+      "areas": [
+        {
+          "id": "ml_deep_learning",
+          "name": "Deep Learning cơ bản",
+          "description": "Mạng neural, backprop, optimization hiện đại.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "ml_neural_network_basics",
+              "name": "Mạng neural cơ bản",
+              "item_type": "concept",
+              "description": "Perceptron, mạng nhiều tầng, hàm kích hoạt, hàm mất mát.",
+              "skill_tags": [
+                "Deep Learning"
+              ],
+              "prerequisites": [
+                "ml_calculus_for_optimization",
+                "ml_sklearn_pipeline_basics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Calculus",
+                  "min_level": 2
+                },
+                {
+                  "tag": "Machine Learning",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 35,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            },
+            {
+              "id": "ml_dl_frameworks",
+              "name": "Thực hành với PyTorch hoặc TensorFlow",
+              "item_type": "skill",
+              "description": "Xây dựng, huấn luyện, debug mô hình mạng neural cơ bản.",
+              "skill_tags": [
+                "Deep Learning",
+                "PyTorch"
+              ],
+              "prerequisites": [
+                "ml_neural_network_basics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Python",
+                  "min_level": 3
+                }
+              ],
+              "estimated_hours": 40,
+              "order_index": 2,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_specialization",
+          "name": "Chuyên sâu NLP hoặc Computer Vision",
+          "description": "Chọn một hướng ứng dụng chính.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "ml_nlp_basics",
+              "name": "Xử lý ngôn ngữ tự nhiên cơ bản",
+              "item_type": "concept",
+              "description": "Tokenization, embedding, RNN mức khái niệm, mô hình ngôn ngữ cơ bản.",
+              "skill_tags": [
+                "Natural Language Processing"
+              ],
+              "prerequisites": [
+                "ml_neural_network_basics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Deep Learning",
+                  "min_level": 1
+                }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            },
+            {
+              "id": "ml_cv_basics",
+              "name": "Computer vision cơ bản",
+              "item_type": "concept",
+              "description": "Convolutional neural network, pooling, kiến trúc CNN cổ điển.",
+              "skill_tags": [
+                "Computer Vision"
+              ],
+              "prerequisites": [
+                "ml_neural_network_basics"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Deep Learning",
+                  "min_level": 1
+                }
+              ],
+              "estimated_hours": 30,
+              "order_index": 2,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_mops",
+          "name": "MLOps cơ bản",
+          "description": "Đóng gói, triển khai và giám sát mô hình.",
+          "order_index": 3,
+          "items": [
+            {
+              "id": "ml_serving_basics",
+              "name": "Triển khai mô hình đơn giản",
+              "item_type": "skill",
+              "description": "Đóng gói mô hình thành API với Flask hoặc FastAPI, container hóa bằng Docker ở mức cơ bản.",
+              "skill_tags": [
+                "MLOps",
+                "Model Deployment"
+              ],
+              "prerequisites": [
+                "ml_end_to_end_project"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Machine Learning",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 35,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage_4_ml_career",
+      "name": "Giai đoạn 4 - Portfolio và phỏng vấn ML",
+      "description": "Hoàn thiện portfolio, chọn hướng chuyên sâu và luyện phỏng vấn.",
+      "order_index": 4,
+      "recommended_semesters": [
+        7,
+        8
+      ],
+      "areas": [
+        {
+          "id": "ml_capstone_area",
+          "name": "Dự án capstone ML",
+          "description": "Dự án ML có pipeline rõ ràng và có thể demo.",
+          "order_index": 1,
+          "items": [
+            {
+              "id": "ml_capstone_project",
+              "name": "Capstone project Machine Learning",
+              "item_type": "project",
+              "description": "Chọn bài toán thực tế (tabular, NLP hoặc CV), xây pipeline từ thu thập dữ liệu, huấn luyện, tối ưu, triển khai và viết báo cáo.",
+              "skill_tags": [
+                "Machine Learning",
+                "Project"
+              ],
+              "prerequisites": [
+                "ml_end_to_end_project",
+                "ml_dl_frameworks"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Machine Learning",
+                  "min_level": 3
+                },
+                {
+                  "tag": "Deep Learning",
+                  "min_level": 2
+                }
+              ],
+              "estimated_hours": 80,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        },
+        {
+          "id": "ml_career_preparation",
+          "name": "Chuẩn bị phỏng vấn ML",
+          "description": "Luyện kiến thức thuật toán, ML theory và hệ thống.",
+          "order_index": 2,
+          "items": [
+            {
+              "id": "ml_interview_theory",
+              "name": "Ôn lý thuyết Machine Learning",
+              "item_type": "skill",
+              "description": "Bias variance, overfitting, regularization, feature engineering, cách chọn model.",
+              "skill_tags": [
+                "Machine Learning Interview"
+              ],
+              "prerequisites": [
+                "ml_linear_models",
+                "ml_tree_based_models"
+              ],
+              "required_skills": [
+                {
+                  "tag": "Machine Learning",
+                  "min_level": 3
+                }
+              ],
+              "estimated_hours": 30,
+              "order_index": 1,
+              "check": false,
+              "personalization": {
+                "status": "not_assigned",
+                "priority": 999,
+                "personalized_description": "",
+                "reason": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+﻿doc_id,career_id,stage_id,area_id,text
+bde_python_java_basics,big_data_engineer,stage_1_bde_foundation,bde_programming_basics,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình và hệ thống
+Lĩnh vực: Lập trình cho data
+Mục: 
+Mô tả: Cấu trúc điều khiển, hàm, module, xử lý ngoại lệ.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+bde_linux_basics,big_data_engineer,stage_1_bde_foundation,bde_systems_basics,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình và hệ thống
+Lĩnh vực: Hệ điều hành và mạng cơ bản
+Mục: 
+Mô tả: Command line, process, file system, shell script đơn giản.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+bde_networking_basics,big_data_engineer,stage_1_bde_foundation,bde_systems_basics,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình và hệ thống
+Lĩnh vực: Hệ điều hành và mạng cơ bản
+Mục: 
+Mô tả: TCP IP, DNS, HTTP, concept client server.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+bde_relational_sql_basics,big_data_engineer,stage_1_bde_foundation,bde_database_basics,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 1 - Nền tảng lập trình và hệ thống
+Lĩnh vực: Cơ sở dữ liệu cơ bản
+Mục: 
+Mô tả: Thiết kế bảng, khóa, JOIN, index cơ bản.
+Tags: 
+Kỳ khuyến nghị: [1, 2]"
+bde_hadoop_spark_intro,big_data_engineer,stage_2_bde_core_data,bde_big_data_ecosystem,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 2 - Core Data Engineering
+Lĩnh vực: Hệ sinh thái Big Data
+Mục: 
+Mô tả: Ý tưởng HDFS, MapReduce, Spark RDD và DataFrame mức khái niệm.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+bde_dimensional_modeling,big_data_engineer,stage_2_bde_core_data,bde_data_modeling,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 2 - Core Data Engineering
+Lĩnh vực: Mô hình hóa dữ liệu và kho dữ liệu
+Mục: 
+Mô tả: Star schema, snowflake schema, fact và dimension table.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+bde_batch_etl_basics,big_data_engineer,stage_2_bde_core_data,bde_etl_pipelines,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 2 - Core Data Engineering
+Lĩnh vực: ETL và data pipeline
+Mục: 
+Mô tả: Thiết kế pipeline trích xuất, transform, load từ hệ thống nguồn vào kho dữ liệu.
+Tags: 
+Kỳ khuyến nghị: [3, 4]"
+bde_kafka_basics,big_data_engineer,stage_3_bde_advanced,bde_stream_processing,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 3 - Streaming, cloud và reliability
+Lĩnh vực: Xử lý dữ liệu streaming
+Mục: 
+Mô tả: Producer, broker, topic, partition, consumer group.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+bde_streaming_frameworks,big_data_engineer,stage_3_bde_advanced,bde_stream_processing,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 3 - Streaming, cloud và reliability
+Lĩnh vực: Xử lý dữ liệu streaming
+Mục: 
+Mô tả: Khái niệm xử lý stream, windowing, state.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+bde_cloud_warehouse_intro,big_data_engineer,stage_3_bde_advanced,bde_cloud_data_platform,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 3 - Streaming, cloud và reliability
+Lĩnh vực: Nền tảng dữ liệu trên cloud
+Mục: 
+Mô tả: BigQuery, Redshift, Snowflake ở mức khái niệm.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+bde_data_quality_checks,big_data_engineer,stage_3_bde_advanced,bde_data_quality_governance,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 3 - Streaming, cloud và reliability
+Lĩnh vực: Data quality và governance
+Mục: 
+Mô tả: Rule kiểm tra, monitoring, alert khi dữ liệu bất thường.
+Tags: 
+Kỳ khuyến nghị: [5, 6]"
+bde_data_platform_design,big_data_engineer,stage_4_bde_career,bde_architecture_design,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 4 - Thiết kế kiến trúc dữ liệu và sự nghiệp
+Lĩnh vực: Thiết kế kiến trúc dữ liệu
+Mục: 
+Mô tả: Thiết kế mô hình kiến trúc cho hệ thống dữ liệu doanh nghiệp giả lập, mô tả chi tiết các thành phần.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
+bde_interview_sql_system,big_data_engineer,stage_4_bde_career,bde_career_preparation,"Nghề: Big Data Engineer (big_data_engineer)
+Giai đoạn: Giai đoạn 4 - Thiết kế kiến trúc dữ liệu và sự nghiệp
+Lĩnh vực: Chuẩn bị phỏng vấn Data Engineer
+Mục: 
+Mô tả: Ôn bài SQL nâng cao, bài toán thiết kế pipeline cho case cụ thể.
+Tags: 
+Kỳ khuyến nghị: [7, 8]"
