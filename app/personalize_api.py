@@ -359,7 +359,7 @@ def apply_personalization_to_canonical_roadmap(
 @app.post("/roadmap/personalized")
 async def get_personalized_roadmap(req: PersonalizeRequest):
     # Lấy user từ MongoDB
-    user = users_collection.find_one({"user_id": req.user_id})
+    user = users_collection.find_one({"_id": req.user_id})
     if not user:
         return {"error": "Unknown user_id"}
 
@@ -367,7 +367,7 @@ async def get_personalized_roadmap(req: PersonalizeRequest):
     student_id = user.get("studentID")
     student = None
     if student_id:
-        student = db["students"].find_one({"studentID": student_id})
+        student = db["students"].find_one({"_id": student_id})
 
     # Gộp thông tin user và student
     profile = dict(user)
