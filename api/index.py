@@ -1,13 +1,11 @@
 import sys
-import os
 from pathlib import Path
 
-# Add the clova-rag-roadmap directory to Python path
+# Đảm bảo import được app.personalize_api khi chạy trên Vercel
 current_dir = Path(__file__).parent
-sys.path.insert(0, str(current_dir))
+project_root = current_dir.parent
+sys.path.insert(0, str(project_root))
 
-# Import the FastAPI app from personalize_api
 from app.personalize_api import app
 
-# This is the entry point for Vercel
-# Vercel will run this as: uvicorn api.index:app
+# Entry point cho Vercel: uvicorn api.index:app
