@@ -1,13 +1,22 @@
+
+import os
 import json
 import uuid
 import re
 import copy
 
+
 import requests
 from fastapi import FastAPI
 from pydantic import BaseModel
+from pymongo import MongoClient
+from .search_api import BASE_DIR, NCP_API_KEY
 
-from .search_api import BASE_DIR, NCP_API_KEY, USERS
+# Kết nối MongoDB
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+mongo_client = MongoClient(MONGO_URI)
+db = mongo_client["clova_db"]
+users_collection = db["users"]
 
 app = FastAPI()
 
@@ -352,11 +361,9 @@ async def get_personalized_roadmap(req: PersonalizeRequest):
     """
     Input:  { "user_id": "...", "jobname": "big data engineer" }
     """
-    # Reload users from file to get latest data
-    from .search_api import load_users
-    users = load_users()
-    
-    user = users.get(req.user_id)
+
+    # Lấy user từ MongoDB
+    user = users_collection.find_one({"user_id": req.user_id})
     if not user:
         return {"error": "Unknown user_id"}
 
