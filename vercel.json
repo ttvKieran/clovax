@@ -6,5 +6,10 @@
       "use": "@vercel/python",
       "config": { "pythonVersion": "3.11" }
     }
+  ],
+  "routes": [
+    { "src": "/roadmap/(.*)", "dest": "/api/roadmap/$1" },
+    { "src": "/docs", "dest": "/api/docs" },
+    { "src": "/(.*)", "dest": "/api/index.py" }
   ]
 }
