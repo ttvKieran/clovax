@@ -358,14 +358,21 @@ def apply_personalization_to_canonical_roadmap(
 
 @app.post("/roadmap/personalized")
 async def get_personalized_roadmap(req: PersonalizeRequest):
-    """
-    Input:  { "user_id": "...", "jobname": "big data engineer" }
-    """
-
     # Lấy user từ MongoDB
     user = users_collection.find_one({"user_id": req.user_id})
     if not user:
         return {"error": "Unknown user_id"}
+
+    # Lấy student từ MongoDB (giả sử user có trường studentID)
+    student_id = user.get("studentID")
+    student = None
+    if student_id:
+        student = db["students"].find_one({"studentID": student_id})
+
+    # Gộp thông tin user và student
+    profile = dict(user)
+    if student:
+        profile.update(student)
 
     jobname = (req.jobname or 'JOB_NAME').strip()
 
@@ -374,7 +381,7 @@ async def get_personalized_roadmap(req: PersonalizeRequest):
     except FileNotFoundError:
         return {"error": f"Roadmap file for job '{jobname}' not found"}
 
-    profile_text = build_profile_text(user)
+    profile_text = build_profile_text(profile)
     roadmap_json_str = json.dumps(canonical_roadmap, ensure_ascii=False, indent=2)
 
     user_prompt = (
@@ -388,7 +395,6 @@ async def get_personalized_roadmap(req: PersonalizeRequest):
     )
 
     raw_answer = call_clova_chat(SYSTEM_PROMPT, user_prompt)
-
     model_roadmap = extract_json_from_text(raw_answer)
 
     if isinstance(model_roadmap, dict) and "stages" in model_roadmap:
